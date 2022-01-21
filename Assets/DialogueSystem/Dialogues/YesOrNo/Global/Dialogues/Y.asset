@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Y
   m_EditorClassIdentifier: 
   <DialogueName>k__BackingField: Y
-  <Text>k__BackingField: "Oh no. \n\nThis is awful.\n\nDo you have an idea on what
+  <Text>k__BackingField: "Oh no. \n\n[This is awful.]\n\nDo you have an idea on what
     to do next?"
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes

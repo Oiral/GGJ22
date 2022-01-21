@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: IntroEnd
   m_EditorClassIdentifier: 
   <DialogueName>k__BackingField: IntroEnd
-  <Text>k__BackingField: Is this even possible Developer?
+  <Text>k__BackingField: '[Is this even possible Developer?]'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: beeaac071d2794540954c72f7052ab63, type: 2}

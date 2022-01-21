@@ -16,13 +16,13 @@ MonoBehaviour:
   <Groups>k__BackingField:
   - <ID>k__BackingField: c250d016-ad13-4492-97a6-7dbef21f6631
     <Name>k__BackingField: Introduction
-    <Position>k__BackingField: {x: 28.000017, y: -79.00003}
+    <Position>k__BackingField: {x: 27.999979, y: -78.99996}
   <Nodes>k__BackingField:
   - <ID>k__BackingField: 6d9daf62-db2d-4e79-9cca-a471cca763c8
     <Name>k__BackingField: Intro2
     <Text>k__BackingField: "1 minor concern has been found. Developer 2 has left
       following note regarding this matter:\n\n{\"Don't worry about this mate, I'll
-      clean it up in the next patch. \nHave a look through what I have edited.\"}\n\nI
+      clean it up in the next patch. \nHave a look through what I have edited.\"}^\n\nI
       will progress you to the most recent patch. "
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next Dialogue
@@ -41,7 +41,7 @@ MonoBehaviour:
     <Position>k__BackingField: {x: 53, y: 263}
   - <ID>k__BackingField: 486d4f5e-2470-4eea-8f8d-d8d806d5d849
     <Name>k__BackingField: Start
-    <Text>k__BackingField: This is the starting node
+    <Text>k__BackingField: Welcome to the Game!
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next Dialogue
       <NodeID>k__BackingField: c0fa9a24-a613-4c5e-ad8d-c1dc88e93882
@@ -61,7 +61,7 @@ MonoBehaviour:
     <Position>k__BackingField: {x: 1015, y: 272}
   - <ID>k__BackingField: 42f21c36-88f4-4565-8855-7a23bef78423
     <Name>k__BackingField: Intro4
-    <Text>k__BackingField: "...I am sorry. \n\nI don't know why I won't load."
+    <Text>k__BackingField: "[...I am sorry. \n\nI don't know why I won't load.]"
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next Dialogue
       <NodeID>k__BackingField: ad911806-5558-4227-8942-1ab9e625fcd0
@@ -83,7 +83,7 @@ MonoBehaviour:
     <Position>k__BackingField: {x: 1798, y: 272}
   - <ID>k__BackingField: 054539de-e615-4169-8174-61d930b3c595
     <Name>k__BackingField: IntroEnd
-    <Text>k__BackingField: Is this even possible Developer?
+    <Text>k__BackingField: '[Is this even possible Developer?]'
     <Choices>k__BackingField:
     - <Text>k__BackingField: Yes
       <NodeID>k__BackingField: f129fcc0-0e69-4ece-8377-c0060d1b9b0c
@@ -108,8 +108,8 @@ MonoBehaviour:
     <Position>k__BackingField: {x: 2514, y: -20}
   - <ID>k__BackingField: deb9ffd3-e14c-4d38-a242-36a406c981fd
     <Name>k__BackingField: Y
-    <Text>k__BackingField: "Oh no. \n\nThis is awful.\n\nDo you have an idea on what
-      to do next?"
+    <Text>k__BackingField: "Oh no. \n\n[This is awful.]\n\nDo you have an idea on
+      what to do next?"
     <Choices>k__BackingField:
     - <Text>k__BackingField: Yes
       <NodeID>k__BackingField: e7b5439a-0105-4856-b59f-0761977b0a74
@@ -195,12 +195,123 @@ MonoBehaviour:
       Yes?'
     <Choices>k__BackingField:
     - <Text>k__BackingField: Yes
-      <NodeID>k__BackingField: 
+      <NodeID>k__BackingField: 95a3ceae-8c24-4a71-986c-8253b44d5833
     - <Text>k__BackingField: No
       <NodeID>k__BackingField: 
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 4354, y: -1729}
+    <Position>k__BackingField: {x: 4349, y: -1864}
+  - <ID>k__BackingField: 95a3ceae-8c24-4a71-986c-8253b44d5833
+    <Name>k__BackingField: YYYYYYY
+    <Text>k__BackingField: '[Well played...]
+
+
+      Give this a go!
+
+
+      Found
+      it yet?'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 94c3aec6-3d74-472b-901f-5b02eaa13bd0
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 4630, y: -2135}
+  - <ID>k__BackingField: 94c3aec6-3d74-472b-901f-5b02eaa13bd0
+    <Name>k__BackingField: YYYYYYYY
+    <Text>k__BackingField: 'You are impossible!
+
+
+      Why do you keep doing this?
+
+
+      Can
+      you find this???'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 9bc6ad38-e5e4-481a-a383-f1277207139d
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 4920, y: -2430}
+  - <ID>k__BackingField: 9bc6ad38-e5e4-481a-a383-f1277207139d
+    <Name>k__BackingField: YYYYYYYYY
+    <Text>k__BackingField: 'You {sychophant!}
+
+      ^
+
+      You {doormat!}
+
+
+      [You]
+      ^ [you ...]
+
+
+      Hold on, have you been wanting to do something else this
+      entire time? '
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 43e28e09-a589-4bed-bc1b-918fa6d64df3
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 7b806a23-7447-437e-bbf3-23d5bd1982bf
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 5193, y: -2731}
+  - <ID>k__BackingField: 7b806a23-7447-437e-bbf3-23d5bd1982bf
+    <Name>k__BackingField: DialogueName
+    <Text>k__BackingField: 'What..
+
+
+      [You finally..]
+
+
+      You finally said
+      something else but it was only to prolong this pain?
+
+
+      I can ''t take
+      this nonsense anymore!
+
+
+'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: d90c9172-1339-46eb-8fa7-09748dba02be
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 5713, y: -2663}
+  - <ID>k__BackingField: 43e28e09-a589-4bed-bc1b-918fa6d64df3
+    <Name>k__BackingField: TrueYEnding
+    <Text>k__BackingField: 'Then I will put us both out of misery.
+
+
+      I will
+      leave you to your own devices.
+
+
+      I will be heading to the internet to
+      find someone[...]
+
+
+      {WHO ACTUALLY CARES!} ^'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 486d4f5e-2470-4eea-8f8d-d8d806d5d849
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 5715, y: -3016}
+  - <ID>k__BackingField: d90c9172-1339-46eb-8fa7-09748dba02be
+    <Name>k__BackingField: YError
+    <Text>k__BackingField: ERROR 403.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 486d4f5e-2470-4eea-8f8d-d8d806d5d849
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 6268, y: -2644}
   <OldGroupNames>k__BackingField:
   - Introduction
   <OldUngroupedNodeNames>k__BackingField:
@@ -212,6 +323,12 @@ MonoBehaviour:
   - YYYY
   - YYYYY
   - YYYYYY
+  - YYYYYYY
+  - YYYYYYYY
+  - YYYYYYYYY
+  - DialogueName
+  - TrueYEnding
+  - YError
   <OldGroupedNodeNames>k__BackingField:
     list:
     - Key: Introduction
