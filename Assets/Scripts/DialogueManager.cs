@@ -11,10 +11,16 @@ public class DialogueManager : MonoBehaviour
 
     DSDialogueSO currentDialogue;
 
-    public List<DSDialogueChoiceData> currentChoices;
+    List<DSDialogueChoiceData> currentChoices;
+
+    UIManager uiManager;
+
+    public bool testingString = false;
 
     private void Awake()
     {
+        uiManager = GetComponent<UIManager>();
+
         SetDialogue(container.UngroupedDialogues[0]);
     }
 
@@ -32,12 +38,16 @@ public class DialogueManager : MonoBehaviour
 
     public void SetDialogue(DSDialogueSO newDialogue)
     {
+        if (testingString) return;
+
+
         currentDialogue = newDialogue;
         currentChoices = currentDialogue.Choices;
         DebugCurrentDialogue();
+        DisplayDialogue();
     }
 
-    public void DebugCurrentDialogue()
+    void DebugCurrentDialogue()
     {
         //Debug.Log(currentDialogue.name);
 
@@ -54,5 +64,16 @@ public class DialogueManager : MonoBehaviour
             Debug.Log("Non choice");
         }
         Debug.Log("-------------------------------------------------");
+    }
+
+    void DisplayDialogue()
+    {
+        uiManager.NewString(currentDialogue.Text);
+        GetComponent<ButtonManager>().CreateButtons(currentDialogue.Choices, currentDialogue.DialogueType == DS.Enumerations.DSDialogueType.MultipleChoice);
+    }
+
+    public void SelectChoice(int choice)
+    {
+        SetDialogue(currentChoices[choice].NextDialogue);
     }
 }

@@ -9,19 +9,27 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI basicText;
     public string currentString;
 
+    [TextArea]
     public string stringToAdd;
 
     int currentStringToAddID = -1;
 
     public float timer;
     public float typeSpeed;
+
+    bool noTimer;
+    bool longerTimer;
     private void Update()
     {
-        timer += Time.deltaTime;
-
-        if (timer > (currentStringToAddID * typeSpeed))
+        if (currentStringToAddID < stringToAdd.Length)
         {
-            AddNextChar();
+            timer += Time.deltaTime;
+
+            if (timer > typeSpeed)
+            {
+                timer = 0;
+                AddNextChar();
+            }
         }
     }
 
@@ -38,18 +46,43 @@ public class UIManager : MonoBehaviour
                 AddNextChar();
                 break;
             case '#':
+                //Delete
                 currentString = currentString.Remove(currentString.Length - 1);
                 break;
-            case '^':
+
+
+            case '*':
+                //Pause
+                timer = -1;
                 break;
+            case '^':
+                timer = -3;
+                break;
+
+
+            case '{':
+                noTimer = true;
+                break;
+            case '}':
+                noTimer = false;
+                break;
+
+
+            case '[':
+                longerTimer = true;
+                break;
+            case ']':
+                longerTimer = false;
+                break;
+
+
             default:
                 currentString += nextChar;
                 break;
         }
+        if (longerTimer) timer = -typeSpeed;
 
-        
-        
-
+        if (noTimer) AddNextChar();
         UpdateVisual();
         
     }
@@ -62,6 +95,7 @@ public class UIManager : MonoBehaviour
     {
         basicText.text = "";
         stringToAdd = newString;
+        currentString = "";
         timer = 0;
         currentStringToAddID = -1;
     }
