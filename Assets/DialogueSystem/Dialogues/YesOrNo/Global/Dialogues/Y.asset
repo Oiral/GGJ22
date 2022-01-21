@@ -10,12 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: Start
+  m_Name: Y
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: Start
-  <Text>k__BackingField: This is the starting node
+  <DialogueName>k__BackingField: Y
+  <Text>k__BackingField: "Oh no. \n\nThis is awful.\n\nDo you have an idea on what
+    to do next?"
   <Choices>k__BackingField:
-  - <Text>k__BackingField: Next Dialogue
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 9a9724960a2b44451bc3d3b5cfe0d4bb, type: 2}
-  <DialogueType>k__BackingField: 0
+  - <Text>k__BackingField: Yes
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 245318605dd65426d894e225c604ea44, type: 2}
+  - <Text>k__BackingField: No
+    <NextDialogue>k__BackingField: {fileID: 0}
+  <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 0

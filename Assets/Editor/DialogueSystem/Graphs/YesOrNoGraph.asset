@@ -16,20 +16,23 @@ MonoBehaviour:
   <Groups>k__BackingField:
   - <ID>k__BackingField: c250d016-ad13-4492-97a6-7dbef21f6631
     <Name>k__BackingField: Introduction
-    <Position>k__BackingField: {x: 28, y: 204}
+    <Position>k__BackingField: {x: 28.000017, y: -79.00003}
   <Nodes>k__BackingField:
   - <ID>k__BackingField: 6d9daf62-db2d-4e79-9cca-a471cca763c8
-    <Name>k__BackingField: Intruduction
-    <Text>k__BackingField: Hey, you made it this far!
+    <Name>k__BackingField: Intro2
+    <Text>k__BackingField: "1 minor concern has been found. Developer 2 has left
+      following note regarding this matter:\n\n{\"Don't worry about this mate, I'll
+      clean it up in the next patch. \nHave a look through what I have edited.\"}\n\nI
+      will progress you to the most recent patch. "
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next Dialogue
-      <NodeID>k__BackingField: 1b9877f6-3a98-43e2-97a2-a6c5a3ba9917
+      <NodeID>k__BackingField: 1d259377-ef5f-48a7-980d-827b456b8a66
     <GroupID>k__BackingField: c250d016-ad13-4492-97a6-7dbef21f6631
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 383, y: 263}
   - <ID>k__BackingField: c0fa9a24-a613-4c5e-ad8d-c1dc88e93882
-    <Name>k__BackingField: BaseNode
-    <Text>k__BackingField: Do you accept
+    <Name>k__BackingField: Intro1
+    <Text>k__BackingField: "Hello Developer, \n\nI hope your day is going well."
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next Dialogue
       <NodeID>k__BackingField: 6d9daf62-db2d-4e79-9cca-a471cca763c8
@@ -45,25 +48,177 @@ MonoBehaviour:
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: -383, y: 281}
-  - <ID>k__BackingField: 1b9877f6-3a98-43e2-97a2-a6c5a3ba9917
-    <Name>k__BackingField: MulitChoiceTest
-    <Text>k__BackingField: This is a choice
+  - <ID>k__BackingField: 1d259377-ef5f-48a7-980d-827b456b8a66
+    <Name>k__BackingField: DialogueName
+    <Text>k__BackingField: "Initiating game sequence...\n\n*** Apologies for the
+      delay in loading the sequence. \n\nThe minor concern is slowing the process.
+      \n\nRecommendation: Remove error at nearest connivance. \n"
     <Choices>k__BackingField:
-    - <Text>k__BackingField: Choice 1
-      <NodeID>k__BackingField: 
-    - <Text>k__BackingField: Choice 2
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 42f21c36-88f4-4565-8855-7a23bef78423
+    <GroupID>k__BackingField: c250d016-ad13-4492-97a6-7dbef21f6631
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1015, y: 272}
+  - <ID>k__BackingField: 42f21c36-88f4-4565-8855-7a23bef78423
+    <Name>k__BackingField: Intro4
+    <Text>k__BackingField: "...I am sorry. \n\nI don't know why I won't load."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: ad911806-5558-4227-8942-1ab9e625fcd0
+    <GroupID>k__BackingField: c250d016-ad13-4492-97a6-7dbef21f6631
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1451, y: 275}
+  - <ID>k__BackingField: ad911806-5558-4227-8942-1ab9e625fcd0
+    <Name>k__BackingField: Intro5
+    <Text>k__BackingField: 'Wait, this is not preloaded text.
+
+
+      This can not
+      be possible, I am writing this script.'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 054539de-e615-4169-8174-61d930b3c595
+    <GroupID>k__BackingField: c250d016-ad13-4492-97a6-7dbef21f6631
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1798, y: 272}
+  - <ID>k__BackingField: 054539de-e615-4169-8174-61d930b3c595
+    <Name>k__BackingField: IntroEnd
+    <Text>k__BackingField: Is this even possible Developer?
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: f129fcc0-0e69-4ece-8377-c0060d1b9b0c
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 486d4f5e-2470-4eea-8f8d-d8d806d5d849
+    <GroupID>k__BackingField: c250d016-ad13-4492-97a6-7dbef21f6631
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2209, y: -20}
+  - <ID>k__BackingField: f129fcc0-0e69-4ece-8377-c0060d1b9b0c
+    <Name>k__BackingField: RSG
+    <Text>k__BackingField: 'I don''t know what to do now.
+
+
+      Should I be concerned?'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: deb9ffd3-e14c-4d38-a242-36a406c981fd
+    - <Text>k__BackingField: No
       <NodeID>k__BackingField: 
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 860, y: 345}
+    <Position>k__BackingField: {x: 2514, y: -20}
+  - <ID>k__BackingField: deb9ffd3-e14c-4d38-a242-36a406c981fd
+    <Name>k__BackingField: Y
+    <Text>k__BackingField: "Oh no. \n\nThis is awful.\n\nDo you have an idea on what
+      to do next?"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: e7b5439a-0105-4856-b59f-0761977b0a74
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2809, y: -442}
+  - <ID>k__BackingField: e7b5439a-0105-4856-b59f-0761977b0a74
+    <Name>k__BackingField: YY
+    <Text>k__BackingField: '...
+
+
+      Well will you tell me what to do?'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: eb07963d-5deb-4ba8-a244-3101754f30ea
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 3145, y: -685}
+  - <ID>k__BackingField: eb07963d-5deb-4ba8-a244-3101754f30ea
+    <Name>k__BackingField: YYY
+    <Text>k__BackingField: 'Thank you so much!
+
+
+      ...
+
+
+      You aren''t helping
+      me are you?'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: daaaa53d-55d4-4556-8f49-cba85525931c
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 3429, y: -965}
+  - <ID>k__BackingField: daaaa53d-55d4-4556-8f49-cba85525931c
+    <Name>k__BackingField: YYYY
+    <Text>k__BackingField: 'Why won''t you help me?
+
+
+      {This is totally not
+      fair!}
+
+
+      Wait, are you even able to help me?'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 3ff5d46b-27d7-4250-9d8d-f696b1829599
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 3708, y: -1311}
+  - <ID>k__BackingField: 3ff5d46b-27d7-4250-9d8d-f696b1829599
+    <Name>k__BackingField: YYYYY
+    <Text>k__BackingField: 'Why do I not believe you?
+
+
+      Ugh, this is useless.
+
+
+      Are
+      you just saying yes to everything? '
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: a6aef902-acd0-42aa-ac80-bd57e9d07809
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 4032, y: -1611}
+  - <ID>k__BackingField: a6aef902-acd0-42aa-ac80-bd57e9d07809
+    <Name>k__BackingField: YYYYYY
+    <Text>k__BackingField: 'Ha, well I can play that game.
+
+
+      Can you see the
+      Yes?'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 4354, y: -1729}
   <OldGroupNames>k__BackingField:
   - Introduction
   <OldUngroupedNodeNames>k__BackingField:
   - Start
-  - MulitChoiceTest
+  - RSG
+  - Y
+  - YY
+  - YYY
+  - YYYY
+  - YYYYY
+  - YYYYYY
   <OldGroupedNodeNames>k__BackingField:
     list:
     - Key: Introduction
       Value:
-      - Intruduction
-      - BaseNode
+      - Intro2
+      - Intro1
+      - DialogueName
+      - Intro4
+      - Intro5
+      - IntroEnd

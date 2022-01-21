@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: Start
+  m_Name: DialogueName
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: Start
-  <Text>k__BackingField: This is the starting node
+  <DialogueName>k__BackingField: DialogueName
+  <Text>k__BackingField: "Initiating game sequence...\n\n*** Apologies for the delay
+    in loading the sequence. \n\nThe minor concern is slowing the process. \n\nRecommendation:
+    Remove error at nearest connivance. \n"
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next Dialogue
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 9a9724960a2b44451bc3d3b5cfe0d4bb, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 2f711a224c38c44339cc43c44389b69b, type: 2}
   <DialogueType>k__BackingField: 0
   <IsStartingDialogue>k__BackingField: 0

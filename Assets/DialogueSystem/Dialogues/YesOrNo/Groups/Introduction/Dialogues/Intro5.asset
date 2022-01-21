@@ -10,12 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: Start
+  m_Name: Intro5
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: Start
-  <Text>k__BackingField: This is the starting node
+  <DialogueName>k__BackingField: Intro5
+  <Text>k__BackingField: 'Wait, this is not preloaded text.
+
+
+    This can not be
+    possible, I am writing this script.'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next Dialogue
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 9a9724960a2b44451bc3d3b5cfe0d4bb, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 019fac8b2bd1c40499b3fcb80cc427d2, type: 2}
   <DialogueType>k__BackingField: 0
   <IsStartingDialogue>k__BackingField: 0
