@@ -2,12 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum audioTracks { key, button};
+public enum audioTracks { key};
 
 public class AudioManager : MonoBehaviour
 {
     public AudioSource keyStroke;
-    public AudioSource buttonPress;
 
 
     public void PlaySound(audioTracks sound)
@@ -16,9 +15,6 @@ public class AudioManager : MonoBehaviour
         {
             case audioTracks.key:
                 keyStroke.Play();
-                break;
-            case audioTracks.button:
-                buttonPress.Play();
                 break;
             default:
                 break;

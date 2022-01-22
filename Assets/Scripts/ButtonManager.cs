@@ -53,8 +53,6 @@ public class ButtonManager : MonoBehaviour
 
     public void Select(int id)
     {
-        audioManager.PlaySound(audioTracks.button);
-
         GetComponent<DialogueManager>().SelectChoice(id);
     }
 }

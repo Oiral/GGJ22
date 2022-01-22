@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Events;
 
 public class UIManager : MonoBehaviour
 {
@@ -23,6 +24,8 @@ public class UIManager : MonoBehaviour
     bool longerTimer;
     public bool colouring;
     string endingTag;
+
+    public UnityEvent onFinish;
     private void Update()
     {
         if (currentStringToAddID < stringToAdd.Length -1)
@@ -33,6 +36,12 @@ public class UIManager : MonoBehaviour
             {
                 timer = 0;
                 AddNextChar();
+            }
+            
+            if (currentStringToAddID == stringToAdd.Length-1)
+            {
+                Debug.Log("Finished");
+                onFinish.Invoke();
             }
         }
     }
