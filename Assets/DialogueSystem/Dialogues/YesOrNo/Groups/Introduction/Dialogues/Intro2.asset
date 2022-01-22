@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <DialogueName>k__BackingField: Intro2
   <Text>k__BackingField: "1 minor flaw has been found. Developer 2 has left this
-    following note regarding this matter:\n\n**{\"Don't worry about this mate, I'll
+    following note regarding this matter:\n\n*{\"Don't worry about this mate, I'll
     clean it up in the next patch. \nHave a look through what I have edited.\"}**\n\nI
     will progress you to the most recent patch. "
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next Dialogue
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 79f268e64bc574fe2a0066032df53f13, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 3ea133dcdb9764dd491a048902a96684, type: 2}
   <DialogueType>k__BackingField: 0
   <IsStartingDialogue>k__BackingField: 0

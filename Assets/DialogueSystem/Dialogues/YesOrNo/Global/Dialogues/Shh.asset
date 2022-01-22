@@ -10,17 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: NNN
+  m_Name: Shh
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: NNN
-  <Text>k__BackingField: 'Well, what am I then?
-
-
-    Or does that not even matter?'
+  <DialogueName>k__BackingField: Shh
+  <Text>k__BackingField: "Thank you for your help. \n\nBefore I go,  do you want
+    to hear a secret?"
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
-    <NextDialogue>k__BackingField: {fileID: 0}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 751c3d13b938f4551b360315b65f3291, type: 2}
   - <Text>k__BackingField: No
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 58ebeee3b95604f6e99e77c14811deb8, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 0}
   <DialogueType>k__BackingField: 1
-  <IsStartingDialogue>k__BackingField: 0
+  <IsStartingDialogue>k__BackingField: 1

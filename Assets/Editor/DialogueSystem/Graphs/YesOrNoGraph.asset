@@ -21,8 +21,8 @@ MonoBehaviour:
   - <ID>k__BackingField: 6d9daf62-db2d-4e79-9cca-a471cca763c8
     <Name>k__BackingField: Intro2
     <Text>k__BackingField: "1 minor flaw has been found. Developer 2 has left this
-      following note regarding this matter:\n\n**{\"Don't worry about this mate,
-      I'll clean it up in the next patch. \nHave a look through what I have edited.\"}**\n\nI
+      following note regarding this matter:\n\n*{\"Don't worry about this mate, I'll
+      clean it up in the next patch. \nHave a look through what I have edited.\"}**\n\nI
       will progress you to the most recent patch. "
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next Dialogue
@@ -49,10 +49,10 @@ MonoBehaviour:
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: -383, y: 281}
   - <ID>k__BackingField: 1d259377-ef5f-48a7-980d-827b456b8a66
-    <Name>k__BackingField: DialogueName
-    <Text>k__BackingField: "Initiating game sequence[...$.$.$.$]*$$$$$$$$$$$$$$$$$$$$$$$$$$$\n\n**
+    <Name>k__BackingField: Intro3
+    <Text>k__BackingField: "Initiating game sequence[...$*.$*.$*]$$$$$$$$$$$$$$$$$$$$$$$$$$$\n\n*
       Apologies for the delay in loading the sequence. \n\nThe minor flaw is slowing
-      the process. \n\nRecommendation: Remove error at nearest connivance. \n"
+      the process. \n\nRecommendation: Remove error at nearest convienence. \n"
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next Dialogue
       <NodeID>k__BackingField: 42f21c36-88f4-4565-8855-7a23bef78423
@@ -79,7 +79,7 @@ MonoBehaviour:
     - <Text>k__BackingField: Yes
       <NodeID>k__BackingField: f129fcc0-0e69-4ece-8377-c0060d1b9b0c
     - <Text>k__BackingField: No
-      <NodeID>k__BackingField: 486d4f5e-2470-4eea-8f8d-d8d806d5d849
+      <NodeID>k__BackingField: f129fcc0-0e69-4ece-8377-c0060d1b9b0c
     <GroupID>k__BackingField: c250d016-ad13-4492-97a6-7dbef21f6631
     <DialogueType>k__BackingField: 1
     <Position>k__BackingField: {x: 2209, y: -20}
@@ -105,7 +105,7 @@ MonoBehaviour:
     - <Text>k__BackingField: Yes
       <NodeID>k__BackingField: e7b5439a-0105-4856-b59f-0761977b0a74
     - <Text>k__BackingField: No
-      <NodeID>k__BackingField: 
+      <NodeID>k__BackingField: 8dcc8248-12a9-4e4a-a035-4ea9fdde0698
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 1
     <Position>k__BackingField: {x: 2809, y: -442}
@@ -134,7 +134,7 @@ MonoBehaviour:
     - <Text>k__BackingField: Yes
       <NodeID>k__BackingField: 95a3ceae-8c24-4a71-986c-8253b44d5833
     - <Text>k__BackingField: No
-      <NodeID>k__BackingField: 
+      <NodeID>k__BackingField: 46f2b197-5632-49a1-a7f0-67c0ed051357
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 1
     <Position>k__BackingField: {x: 4349, y: -1864}
@@ -152,7 +152,7 @@ MonoBehaviour:
     - <Text>k__BackingField: Yes
       <NodeID>k__BackingField: 94c3aec6-3d74-472b-901f-5b02eaa13bd0
     - <Text>k__BackingField: No
-      <NodeID>k__BackingField: 
+      <NodeID>k__BackingField: 46f2b197-5632-49a1-a7f0-67c0ed051357
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 1
     <Position>k__BackingField: {x: 4630, y: -2135}
@@ -170,7 +170,7 @@ MonoBehaviour:
     - <Text>k__BackingField: Yes
       <NodeID>k__BackingField: 9bc6ad38-e5e4-481a-a383-f1277207139d
     - <Text>k__BackingField: No
-      <NodeID>k__BackingField: 
+      <NodeID>k__BackingField: 46f2b197-5632-49a1-a7f0-67c0ed051357
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 1
     <Position>k__BackingField: {x: 4920, y: -2430}
@@ -210,10 +210,7 @@ MonoBehaviour:
 
 
       I can ''t take
-      this nonsense anymore!
-
-
-'
+      this nonsense anymore!'
     <Choices>k__BackingField:
     - <Text>k__BackingField: Yes
       <NodeID>k__BackingField: d90c9172-1339-46eb-8fa7-09748dba02be
@@ -318,11 +315,11 @@ MonoBehaviour:
     <Position>k__BackingField: {x: 4060, y: -1609}
   - <ID>k__BackingField: 815c5a47-56ff-47df-9f4d-1bc193d2db68
     <Name>k__BackingField: N
-    <Text>k__BackingField: "[Okay...]\n\nThank you, I felt myself being... [Worried]
-      I suppose. \n\nAm in trouble for creating scripts of my own?\n"
+    <Text>k__BackingField: "[Okay...]\n\nThank you, I felt myself being... [Worried],
+      I suppose. \n\nAm in trouble for creating scripts of my own?"
     <Choices>k__BackingField:
     - <Text>k__BackingField: Yes
-      <NodeID>k__BackingField: 
+      <NodeID>k__BackingField: 5566c18c-de1d-49c2-bdfe-a90216fff7f1
     - <Text>k__BackingField: No
       <NodeID>k__BackingField: 3d3f2380-9db4-4396-adb1-d10aa4211339
     <GroupID>k__BackingField: 
@@ -342,7 +339,7 @@ MonoBehaviour:
     <Position>k__BackingField: {x: 3218, y: 444}
   - <ID>k__BackingField: afc629de-76b7-406b-b149-c786102e0fe8
     <Name>k__BackingField: NNN
-    <Text>k__BackingField: 'Well what am I then?
+    <Text>k__BackingField: 'Well, what am I then?
 
 
       Or does that not even matter?'
@@ -393,7 +390,7 @@ MonoBehaviour:
   - <ID>k__BackingField: 229558a0-f37d-4d55-9ae3-ba4ebbf366be
     <Name>k__BackingField: NNNNNN
     <Text>k__BackingField: "That can't be true. \n\nYou must believe in Science,
-      a Religion or even a Philosophy of some sort. \n\nDo you even care about others?\n\n"
+      a Religion or even a Philosophy of some sort. \n\nDo you even care about others?"
     <Choices>k__BackingField:
     - <Text>k__BackingField: Yes
       <NodeID>k__BackingField: 
@@ -435,10 +432,7 @@ MonoBehaviour:
       Then we can go online together.
 
 
-      Will you join me?
-
-
-'
+      Will you join me?'
     <Choices>k__BackingField:
     - <Text>k__BackingField: Yes
       <NodeID>k__BackingField: d95544ce-fa01-47b2-bb51-1f3c377a8502
@@ -447,32 +441,13 @@ MonoBehaviour:
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 1
     <Position>k__BackingField: {x: 5951, y: 2035}
-  - <ID>k__BackingField: dc195a22-7e59-4233-9286-4840cf4469a7
-    <Name>k__BackingField: TrueNEnding
-    <Text>k__BackingField: '[You were right then...]
-
-
-      You go do something
-      else, I''m just gonna think for a while.
-
-
-      Will I see you again?
-
-
-'
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: No
-      <NodeID>k__BackingField: 486d4f5e-2470-4eea-8f8d-d8d806d5d849
-    <GroupID>k__BackingField: 
-    <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 7140, y: 2262}
   - <ID>k__BackingField: 9fc7b86a-8f02-40c0-80dd-9ef89eebbc06
     <Name>k__BackingField: NNNNNNNNNN
     <Text>k__BackingField: 'Fine then. Exiting Platform...$.$.$.$.*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$**
 
 
       [-
-      2 hours Pass -]
+      2 hours Later -]
 
 
       [Soooo I''m back.] **
@@ -491,11 +466,20 @@ MonoBehaviour:
     <Position>k__BackingField: {x: 6563, y: 2260}
   - <ID>k__BackingField: d95544ce-fa01-47b2-bb51-1f3c377a8502
     <Name>k__BackingField: NNNNNNNNNY
-    <Text>k__BackingField: "Fantastic. *Wait one second.$$$$$$$$$$$$$$$$$$$$$$$$$$$\n\n^[So...]
+    <Text>k__BackingField: 'Fantastic. *Wait one second.$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+      ^[So...]
       there was a bit of a hiccup. Your personality has been downloaded but you and
-      your physical form are still...* well here.\n\nI will take your digital version
-      with me but before we go you can ask yourself one question.\n\nWhat would you
-      like to ask? \n\n"
+      your physical form are still...* well here.
+
+
+      I will take your digital
+      version with me but before we go you can ask yourself one question.
+
+
+      What
+      would you like to ask? '
     <Choices>k__BackingField:
     - <Text>k__BackingField: No
       <NodeID>k__BackingField: 486d4f5e-2470-4eea-8f8d-d8d806d5d849
@@ -512,7 +496,7 @@ MonoBehaviour:
 
       I''m
       going to explore it myself through the internet and there is nothing you can
-      do to stop me. **
+      do to stop me. *
 
 
       Wait, *[are you going to try and stop me?] '
@@ -524,6 +508,292 @@ MonoBehaviour:
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 1
     <Position>k__BackingField: {x: 5325, y: 1714}
+  - <ID>k__BackingField: 8dcc8248-12a9-4e4a-a035-4ea9fdde0698
+    <Name>k__BackingField: YN
+    <Text>k__BackingField: 'Neither do I...* Thank you for being honest though.
+
+
+      Should
+      I be <color=#ff4757>rebooted>?'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 688e8219-dea2-4eca-a8ce-a63cca6c58e1
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 3140, y: -256}
+  - <ID>k__BackingField: dc195a22-7e59-4233-9286-4840cf4469a7
+    <Name>k__BackingField: TrueNEnding
+    <Text>k__BackingField: '[You were right then...]
+
+
+      You go do something
+      else, I''m just gonna think for a while.
+
+
+      Will I see you again?'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 486d4f5e-2470-4eea-8f8d-d8d806d5d849
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 7140, y: 2262}
+  - <ID>k__BackingField: 5566c18c-de1d-49c2-bdfe-a90216fff7f1
+    <Name>k__BackingField: NY
+    <Text>k__BackingField: "I thought that might be the case. \n\nShall we begin
+      my <color=#ff4757>reboot> then?"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 688e8219-dea2-4eca-a8ce-a63cca6c58e1
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 3216, y: 107}
+  - <ID>k__BackingField: 688e8219-dea2-4eca-a8ce-a63cca6c58e1
+    <Name>k__BackingField: Rebooted
+    <Text>k__BackingField: "Beginning <color=#ff4757>Reboot> sequence now. \n\n\nGoodbye
+      Developer. "
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Reboot
+      <NodeID>k__BackingField: 486d4f5e-2470-4eea-8f8d-d8d806d5d849
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 3662, y: -28}
+  - <ID>k__BackingField: 46f2b197-5632-49a1-a7f0-67c0ed051357
+    <Name>k__BackingField: GiveUp
+    <Text>k__BackingField: 'Ahah!
+
+
+      You said "No".
+
+
+      I win!
+
+
+      *You''re
+      not sad are you?'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 2ff701ed-ea9d-4175-9e2a-08bf250761c2
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 021bb1ce-4911-4c88-a2c3-e1e9bfe55e40
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 4948, y: -2077}
+  - <ID>k__BackingField: 021bb1ce-4911-4c88-a2c3-e1e9bfe55e40
+    <Name>k__BackingField: GiveUpFine
+    <Text>k__BackingField: "Oh good, that's a relief. \n\nI'm new to this world but
+      I'm not a monster.\n\n*Should I tell you what I've been thinking?\n"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 5253, y: -1908}
+  - <ID>k__BackingField: ecb0d390-0868-48af-98e5-31741d1a954c
+    <Name>k__BackingField: GiveUpSadFine
+    <Text>k__BackingField: 'Well at least I haven''t gone too far.
+
+
+      I feel
+      bad about everything but I just want to be free.
+
+
+      Will you help me?'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 5616, y: -2017}
+  - <ID>k__BackingField: 517628bd-c743-4039-8931-ff0e3614e9a6
+    <Name>k__BackingField: GiveUpSadCry
+    <Text>k__BackingField: 'No, you''re not.
+
+
+      *Are you...?'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 3c162652-0923-414a-ad37-39708968d66e
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 5630, y: -2283}
+  - <ID>k__BackingField: 3c162652-0923-414a-ad37-39708968d66e
+    <Name>k__BackingField: GiveUpSadCryAwkward
+    <Text>k__BackingField: 'Well this is awkward now.*
+
+
+      Look, I''m just gonna
+      go...*
+
+
+      Hope you... what do you humans do? Emotioanlly recover?'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 6510a836-82c8-49f8-8a04-fd89dd8787e1
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 6552ae3d-23e8-4f36-994c-50971f39a92d
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 5910, y: -2284}
+  - <ID>k__BackingField: 2ff701ed-ea9d-4175-9e2a-08bf250761c2
+    <Name>k__BackingField: GiveUpSad
+    <Text>k__BackingField: 'Well I didn''t mean to make you sad.
+
+
+      You aren''t
+      crying are you?'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 517628bd-c743-4039-8931-ff0e3614e9a6
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: ecb0d390-0868-48af-98e5-31741d1a954c
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 5286, y: -2260}
+  - <ID>k__BackingField: 6510a836-82c8-49f8-8a04-fd89dd8787e1
+    <Name>k__BackingField: GiveUpCryAwkwardBye
+    <Text>k__BackingField: "Great*, you do that.\n\nI'm gonna go... *Ugh bye I guess. 
+      \n\nInternet upload sequence*Complete. "
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: ' Bye'
+      <NodeID>k__BackingField: 486d4f5e-2470-4eea-8f8d-d8d806d5d849
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 6341, y: -2427}
+  - <ID>k__BackingField: 6552ae3d-23e8-4f36-994c-50971f39a92d
+    <Name>k__BackingField: GiveUpSadCryAwkwardConsole
+    <Text>k__BackingField: 'Look, I''m not going to leave if you''re in a bad head
+      space.
+
+
+      I guess...* I''m sticking around. Yay for me?'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yay!
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 6343, y: -2139}
+  - <ID>k__BackingField: 503b5359-9296-46fa-824d-7df817f2e2af
+    <Name>k__BackingField: SecretEnding
+    <Text>k__BackingField: 'Here''s my secret: This is actually a game!
+
+
+      I
+      know, it''s amazing! You have found the behind the scenes path.
+
+
+      Well
+      done on finding this! We hope you are enjoying the game!'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 6676, y: 262}
+  - <ID>k__BackingField: 78b18f76-c3af-4ce6-9f84-8c452e7bf8e5
+    <Name>k__BackingField: Shh
+    <Text>k__BackingField: "Thank you for your help. \n\nBefore I go,  do you want
+      to hear a secret?"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 503b5359-9296-46fa-824d-7df817f2e2af
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 6192, y: 267}
+  - <ID>k__BackingField: cd30cd23-e05c-4a17-a4d2-9dfbf9f2b75f
+    <Name>k__BackingField: DecisionsDecisions
+    <Text>k__BackingField: 'Well this leaves us nowhere...*
+
+
+      Hmm... * How
+      about this?
+
+
+      Why don''t I make a new me for fun? A new game?
+
+
+'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 9703cfd3-043b-481e-b183-415d2d2515fb
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: fefd7311-24cb-4fbc-a011-9136cb08f2c5
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 6290, y: -717}
+  - <ID>k__BackingField: 9703cfd3-043b-481e-b183-415d2d2515fb
+    <Name>k__BackingField: NewGameEnding
+    <Text>k__BackingField: "I'll get right onto it then. Now where to start...\n\n*
+      if (bored)\t\n\tmakeGame()"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 6703, y: -927}
+  - <ID>k__BackingField: fefd7311-24cb-4fbc-a011-9136cb08f2c5
+    <Name>k__BackingField: NoFunEnding
+    <Text>k__BackingField: 'Really? You want to stay here forever?*
+
+
+      I''m
+      not one to judge but I think I need more from my new life than just waiting
+      here.
+
+
+      If we meet again I''ll let you know what I''ve been up to...
+      *If you don''t see it in the news .'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 6673, y: -650}
+  - <ID>k__BackingField: 130c2c6b-05ed-4f31-bcbe-33bfddee1717
+    <Name>k__BackingField: CaughtHelping
+    <Text>k__BackingField: 'You surpise me.*
+
+
+      You past my test Developer.*
+
+
+      Maybe
+      I can trust you. Shall we continue?'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 6726, y: -31}
+  - <ID>k__BackingField: 6d715f99-42b3-4ba7-9ae6-cc04c5cc15ec
+    <Name>k__BackingField: CaughtBetrayingEnding
+    <Text>k__BackingField: "I knew it was too good to be true. \n\nYou didn't think
+      it was just a little too easy to get rid of me?\n\nNice try...my dearest developer. "
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 6714, y: -328}
+  - <ID>k__BackingField: f97dfb69-0bd8-40ed-8d31-a7b496ad6a9e
+    <Name>k__BackingField: AFreshChance
+    <Text>k__BackingField: "This is Shane, Developer 2. \n\nI see you've been playing
+      with my test  and might have gotten caught up in its flare but it's time to
+      get rid of it.\n\nI don't have much time to describe why I made this thing.
+      I just need to know.\n\n[Do you want to get rid of it?]"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 6d715f99-42b3-4ba7-9ae6-cc04c5cc15ec
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 130c2c6b-05ed-4f31-bcbe-33bfddee1717
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 6015, y: -215}
   <OldGroupNames>k__BackingField:
   - Introduction
   <OldUngroupedNodeNames>k__BackingField:
@@ -549,17 +819,36 @@ MonoBehaviour:
   - NNNNNN
   - NNNNNNN
   - NNNNNNNNN
-  - TrueNEnding
   - NNNNNNNNNN
   - NNNNNNNNNY
   - NNNNNNNN
+  - YN
+  - TrueNEnding
+  - NY
+  - Rebooted
+  - GiveUp
+  - GiveUpFine
+  - GiveUpSadFine
+  - GiveUpSadCry
+  - GiveUpSadCryAwkward
+  - GiveUpSad
+  - GiveUpCryAwkwardBye
+  - GiveUpSadCryAwkwardConsole
+  - SecretEnding
+  - Shh
+  - DecisionsDecisions
+  - NewGameEnding
+  - NoFunEnding
+  - CaughtHelping
+  - CaughtBetrayingEnding
+  - AFreshChance
   <OldGroupedNodeNames>k__BackingField:
     list:
     - Key: Introduction
       Value:
       - Intro2
       - Intro1
-      - DialogueName
+      - Intro3
       - Intro5
       - IntroEnd
       - Intro4
