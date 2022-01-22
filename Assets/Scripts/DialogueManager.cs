@@ -4,6 +4,7 @@ using UnityEngine;
 using DS;
 using DS.ScriptableObjects;
 using DS.Data;
+using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class DialogueManager : MonoBehaviour
     DSDialogueSO currentDialogue;
 
     List<DSDialogueChoiceData> currentChoices;
+
+    public TextMeshProUGUI dialogueName;
 
     UIManager uiManager;
 
@@ -22,17 +25,6 @@ public class DialogueManager : MonoBehaviour
         uiManager = GetComponent<UIManager>();
 
         SetDialogue(container.UngroupedDialogues[0]);
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            if (currentDialogue.DialogueType == DS.Enumerations.DSDialogueType.SingleChoice)
-            {
-                SetDialogue(currentDialogue.Choices[0].NextDialogue);
-            }
-        }
     }
 
 
@@ -68,6 +60,12 @@ public class DialogueManager : MonoBehaviour
 
     void DisplayDialogue()
     {
+#if UNITY_EDITOR
+        dialogueName.text = currentDialogue.name;
+#else
+    dialogueName.Text = "";
+#endif
+
         uiManager.NewString(currentDialogue.Text);
         GetComponent<ButtonManager>().CreateButtons(currentDialogue.Choices, currentDialogue.DialogueType == DS.Enumerations.DSDialogueType.MultipleChoice);
     }
