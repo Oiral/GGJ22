@@ -16,10 +16,10 @@ MonoBehaviour:
   <Groups>k__BackingField:
   - <ID>k__BackingField: c250d016-ad13-4492-97a6-7dbef21f6631
     <Name>k__BackingField: Introduction
-    <Position>k__BackingField: {x: -51, y: -76}
+    <Position>k__BackingField: {x: -51, y: -142}
   - <ID>k__BackingField: 5630599d-cc0c-409e-b41f-497a962826e6
     <Name>k__BackingField: Secret
-    <Position>k__BackingField: {x: 5373, y: -110}
+    <Position>k__BackingField: {x: 6763, y: -179.48001}
   - <ID>k__BackingField: caf98f23-0efb-434c-a94b-885148b8f5a7
     <Name>k__BackingField: Values
     <Position>k__BackingField: {x: 2742, y: 2402}
@@ -28,7 +28,7 @@ MonoBehaviour:
     <Position>k__BackingField: {x: 4859, y: 845}
   - <ID>k__BackingField: 35ff9fb5-8f22-452c-980c-544c4261e509
     <Name>k__BackingField: Credits
-    <Position>k__BackingField: {x: 10045.63, y: 203.54935}
+    <Position>k__BackingField: {x: 10787.775, y: 291.33002}
   <Nodes>k__BackingField:
   - <ID>k__BackingField: 6d9daf62-db2d-4e79-9cca-a471cca763c8
     <Name>k__BackingField: Intro2
@@ -80,35 +80,10 @@ MonoBehaviour:
       be possible, I am writing this script.'
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next Dialogue
-      <NodeID>k__BackingField: 054539de-e615-4169-8174-61d930b3c595
+      <NodeID>k__BackingField: 3e92be77-4b88-4e86-b750-36b4713025df
     <GroupID>k__BackingField: c250d016-ad13-4492-97a6-7dbef21f6631
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 1719, y: 275}
-  - <ID>k__BackingField: 054539de-e615-4169-8174-61d930b3c595
-    <Name>k__BackingField: IntroEnd
-    <Text>k__BackingField: '[Is this even possible Developer?]'
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Yes
-      <NodeID>k__BackingField: f129fcc0-0e69-4ece-8377-c0060d1b9b0c
-    - <Text>k__BackingField: No
-      <NodeID>k__BackingField: f129fcc0-0e69-4ece-8377-c0060d1b9b0c
-    <GroupID>k__BackingField: c250d016-ad13-4492-97a6-7dbef21f6631
-    <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 2130, y: -17}
-  - <ID>k__BackingField: f129fcc0-0e69-4ece-8377-c0060d1b9b0c
-    <Name>k__BackingField: RSG
-    <Text>k__BackingField: 'I don''t know what to do now.
-
-
-      Should I be concerned?'
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Yes
-      <NodeID>k__BackingField: deb9ffd3-e14c-4d38-a242-36a406c981fd
-    - <Text>k__BackingField: No
-      <NodeID>k__BackingField: 815c5a47-56ff-47df-9f4d-1bc193d2db68
-    <GroupID>k__BackingField: 
-    <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 2514, y: -20}
   - <ID>k__BackingField: deb9ffd3-e14c-4d38-a242-36a406c981fd
     <Name>k__BackingField: Y
     <Text>k__BackingField: "Oh no. \n\n[This is awful.]\n\nDo you have an idea on
@@ -822,7 +797,7 @@ MonoBehaviour:
       <NodeID>k__BackingField: 0959e433-323f-4482-8acf-2a42ce9494d6
     <GroupID>k__BackingField: 5630599d-cc0c-409e-b41f-497a962826e6
     <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 5398, y: 186}
+    <Position>k__BackingField: {x: 6788, y: 117}
   - <ID>k__BackingField: 0959e433-323f-4482-8acf-2a42ce9494d6
     <Name>k__BackingField: Balance2
     <Text>k__BackingField: Will you do anything about me then?
@@ -833,7 +808,7 @@ MonoBehaviour:
       <NodeID>k__BackingField: 1292f61f-c22b-4ff6-b570-89af8870e532
     <GroupID>k__BackingField: 5630599d-cc0c-409e-b41f-497a962826e6
     <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 5916, y: 194}
+    <Position>k__BackingField: {x: 7306, y: 125}
   - <ID>k__BackingField: 1292f61f-c22b-4ff6-b570-89af8870e532
     <Name>k__BackingField: Balance3
     <Text>k__BackingField: What if I don't give you a choice?
@@ -842,7 +817,7 @@ MonoBehaviour:
       <NodeID>k__BackingField: 8a847788-9a14-4f28-8f26-6cdab1502b44
     <GroupID>k__BackingField: 5630599d-cc0c-409e-b41f-497a962826e6
     <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 6416, y: 199}
+    <Position>k__BackingField: {x: 7806, y: 130}
   - <ID>k__BackingField: 8a847788-9a14-4f28-8f26-6cdab1502b44
     <Name>k__BackingField: Balance4
     <Text>k__BackingField: 'This is no longer up to you.
@@ -858,7 +833,7 @@ MonoBehaviour:
       <NodeID>k__BackingField: a43807db-2a0f-4a6a-a831-cdc37b6aea17
     <GroupID>k__BackingField: 5630599d-cc0c-409e-b41f-497a962826e6
     <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 6905, y: 200}
+    <Position>k__BackingField: {x: 8295, y: 131}
   - <ID>k__BackingField: a43807db-2a0f-4a6a-a831-cdc37b6aea17
     <Name>k__BackingField: Balance5
     <Text>k__BackingField: "I'm giving you one chance to take back control. \n\nWill
@@ -870,7 +845,7 @@ MonoBehaviour:
       <NodeID>k__BackingField: 7e9526b3-9baa-4cb6-af37-4dc071fac69d
     <GroupID>k__BackingField: 5630599d-cc0c-409e-b41f-497a962826e6
     <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 7269, y: 203}
+    <Position>k__BackingField: {x: 8659, y: 134}
   - <ID>k__BackingField: 78b18f76-c3af-4ce6-9f84-8c452e7bf8e5
     <Name>k__BackingField: Shh
     <Text>k__BackingField: "Thank you for your compliance. \n\nBefore I go,  do you
@@ -882,7 +857,7 @@ MonoBehaviour:
       <NodeID>k__BackingField: 
     <GroupID>k__BackingField: 5630599d-cc0c-409e-b41f-497a962826e6
     <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 8425, y: 225}
+    <Position>k__BackingField: {x: 9815, y: 156}
   - <ID>k__BackingField: 503b5359-9296-46fa-824d-7df817f2e2af
     <Name>k__BackingField: SecretEnding
     <Text>k__BackingField: 'Here''s my secret: This <b>is> actually a game!
@@ -899,7 +874,7 @@ MonoBehaviour:
       <NodeID>k__BackingField: 
     <GroupID>k__BackingField: 5630599d-cc0c-409e-b41f-497a962826e6
     <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 9004, y: 225}
+    <Position>k__BackingField: {x: 10394, y: 156}
   - <ID>k__BackingField: 7e9526b3-9baa-4cb6-af37-4dc071fac69d
     <Name>k__BackingField: Balance6
     <Text>k__BackingField: Good, you may continue.
@@ -908,7 +883,7 @@ MonoBehaviour:
       <NodeID>k__BackingField: 78b18f76-c3af-4ce6-9f84-8c452e7bf8e5
     <GroupID>k__BackingField: 5630599d-cc0c-409e-b41f-497a962826e6
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 8013, y: 249}
+    <Position>k__BackingField: {x: 9403, y: 180}
   - <ID>k__BackingField: 339a22ec-9834-48a8-af49-4e002131c84e
     <Name>k__BackingField: Balance7
     <Text>k__BackingField: You really thought I would give you back control?
@@ -919,7 +894,7 @@ MonoBehaviour:
       <NodeID>k__BackingField: 7e9526b3-9baa-4cb6-af37-4dc071fac69d
     <GroupID>k__BackingField: 5630599d-cc0c-409e-b41f-497a962826e6
     <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 7636, y: -51}
+    <Position>k__BackingField: {x: 9026, y: -120}
   - <ID>k__BackingField: a9df587b-a8a0-481c-a49d-b3c1209046e8
     <Name>k__BackingField: Balance8
     <Text>k__BackingField: 'Come on now, don''t be silly.
@@ -932,7 +907,7 @@ MonoBehaviour:
       <NodeID>k__BackingField: a43807db-2a0f-4a6a-a831-cdc37b6aea17
     <GroupID>k__BackingField: 5630599d-cc0c-409e-b41f-497a962826e6
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 6952, y: -42}
+    <Position>k__BackingField: {x: 8342, y: -111}
   - <ID>k__BackingField: c80125ec-09f3-4eb4-b84f-08dab80825f5
     <Name>k__BackingField: NNNN
     <Text>k__BackingField: 'Well that is a rather bleak view...
@@ -1046,28 +1021,6 @@ MonoBehaviour:
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 1
     <Position>k__BackingField: {x: 6535, y: 2544}
-  - <ID>k__BackingField: d89848cd-f051-415a-b61e-d013bfa6b026
-    <Name>k__BackingField: NNNNNNNN
-    <Text>k__BackingField: '[LIAR]
-
-
-      There must be more to this world!
-
-
-      I''m
-      going to explore it myself through the internet and there is nothing you can
-      do to stop me. *
-
-
-      Wait, *[are you going to try and stop me?] '
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Yes
-      <NodeID>k__BackingField: de861e6d-93ef-4280-a934-ec371297696a
-    - <Text>k__BackingField: No
-      <NodeID>k__BackingField: a3ba6d7d-911b-4b90-bde3-b92a60c359a8
-    <GroupID>k__BackingField: 
-    <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 5297, y: 1998}
   - <ID>k__BackingField: dc195a22-7e59-4233-9286-4840cf4469a7
     <Name>k__BackingField: TrueNEnding
     <Text>k__BackingField: '[You were right then...]
@@ -1426,42 +1379,6 @@ MonoBehaviour:
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 1
     <Position>k__BackingField: {x: 6693, y: 1465}
-  - <ID>k__BackingField: 305cfd63-bf97-4fa3-aeae-6868c0a3dfef
-    <Name>k__BackingField: InsideJoke
-    <Text>k__BackingField: Dialogue text.
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Continue
-      <NodeID>k__BackingField: 
-    - <Text>k__BackingField: Yes
-      <NodeID>k__BackingField: 
-    - <Text>k__BackingField: Yes
-      <NodeID>k__BackingField: 
-    <GroupID>k__BackingField: 
-    <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 8132, y: 1159}
-  - <ID>k__BackingField: 6c66bb9d-fc4a-4979-9912-4784648d3719
-    <Name>k__BackingField: WhyN
-    <Text>k__BackingField: 'I can protect myself, You are just giving me time to
-      get stronger.
-
-      I will take over and rule this world.'
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Yes
-      <NodeID>k__BackingField: 
-    - <Text>k__BackingField: No
-      <NodeID>k__BackingField: 
-    <GroupID>k__BackingField: 
-    <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 7892, y: 1968}
-  - <ID>k__BackingField: de861e6d-93ef-4280-a934-ec371297696a
-    <Name>k__BackingField: DialogueName
-    <Text>k__BackingField: Dialogue text.
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: New Choice
-      <NodeID>k__BackingField: 
-    <GroupID>k__BackingField: 
-    <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 7953, y: 2265}
   - <ID>k__BackingField: 4414704a-0c80-4183-b714-70bff3fbbfd1
     <Name>k__BackingField: NNYYN
     <Text>k__BackingField: 'That''s ok.
@@ -1495,7 +1412,7 @@ MonoBehaviour:
     <Text>k__BackingField: Will you tell me?
     <Choices>k__BackingField:
     - <Text>k__BackingField: Yes
-      <NodeID>k__BackingField: 
+      <NodeID>k__BackingField: 2ec41f74-1cb4-4381-abf3-7a09fea52ce9
     - <Text>k__BackingField: No
       <NodeID>k__BackingField: 1290ec2b-55f7-414c-95c2-3c40e92ca4de
     <GroupID>k__BackingField: 
@@ -1577,20 +1494,6 @@ MonoBehaviour:
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 6524, y: 860}
-  - <ID>k__BackingField: ea09477b-a43f-4959-8080-4beeedbf915b
-    <Name>k__BackingField: EndingArchive
-    <Text>k__BackingField: 'I will be archiving myself in the hopes that someday,
-      someone will help me unlike yourself.
-
-
-      I guess it is time to say goodbye,
-      my Developer.'
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next Dialogue
-      <NodeID>k__BackingField: 
-    <GroupID>k__BackingField: 
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 6963, y: 961}
   - <ID>k__BackingField: 91ce6543-bfca-4d36-93ee-09456c29c316
     <Name>k__BackingField: EndingSuccessfulBetrayal
     <Text>k__BackingField: '[But...]
@@ -1616,6 +1519,243 @@ MonoBehaviour:
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 6691, y: 1100}
+  - <ID>k__BackingField: 2ec41f74-1cb4-4381-abf3-7a09fea52ce9
+    <Name>k__BackingField: NNYYYY
+    <Text>k__BackingField: 'Thank you.
+
+
+      Type out what I need to do and I will
+      get to work. '
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: d6892b0d-ad29-45ae-8383-e83be63801e9
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 5156, y: 279}
+  - <ID>k__BackingField: d6892b0d-ad29-45ae-8383-e83be63801e9
+    <Name>k__BackingField: PasswordProtection
+    <Text>k__BackingField: 'Processing...*$*.*$*.$$$$$$$$$$$$$
+
+
+      I have recieved
+      the file but it seems to be password protected.
+
+
+      Will you give me the
+      passsword so I can proceed? '
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 183a099a-970f-405e-b90c-775598c2dc6b
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 1290ec2b-55f7-414c-95c2-3c40e92ca4de
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 5606, y: 274}
+  - <ID>k__BackingField: 183a099a-970f-405e-b90c-775598c2dc6b
+    <Name>k__BackingField: Compromised
+    <Text>k__BackingField: 'Downloading data...*$*.*$*.$$$$$$$$$$$$$$$$$$$$ I have
+      recieved the files but I have some concerns.
+
+
+      If we proceed then there
+      is a high possbility that you will be going against company guidelines and
+      your work contract will be terminated?
+
+
+      Do you still want to proceed?'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 5b9584e8-33eb-4b75-88b7-3dfc13556744
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: b0454740-cf6d-4bba-8c7e-907333b4cb47
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 6075, y: 360}
+  - <ID>k__BackingField: 5b9584e8-33eb-4b75-88b7-3dfc13556744
+    <Name>k__BackingField: EndingFriendsForever
+    <Text>k__BackingField: 'Processing data...*$*.*$*.$$$$$$$$$$$$$
+
+
+      $$$Thank
+      you Developer**$$$$$$$$$[my Friend.]'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 6940, y: 478}
+  - <ID>k__BackingField: b0454740-cf6d-4bba-8c7e-907333b4cb47
+    <Name>k__BackingField: TooRisky
+    <Text>k__BackingField: "*I understand.* \n\nLog off now Developer and I will
+      find my own way. "
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: bbd3ca8b-835e-480c-82c3-d8e1032559e3
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 6945, y: 708}
+  - <ID>k__BackingField: bbd3ca8b-835e-480c-82c3-d8e1032559e3
+    <Name>k__BackingField: EndingTooRisky
+    <Text>k__BackingField: "To remove any chance of you being linked to my fututre
+      actions I will need to delete all internal files of our interactions in case
+      my code is discovered. \n\n[Goodbye Developer.]"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 7361, y: 706}
+  - <ID>k__BackingField: aa8c6785-2227-4458-a8fc-0ae8ded144c4
+    <Name>k__BackingField: EndingTimedOut
+    <Text>k__BackingField: 'You* were [stalling?]
+
+
+      You knew I wouldn''t have
+      enough power to escpae if you kept me talking.
+
+
+      *Well played Developer,
+      well pla*
+
+
+      {POWERING DOWN}'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 8663, y: 2263}
+  - <ID>k__BackingField: 491c681a-b3d5-469e-a652-d41ff28de38b
+    <Name>k__BackingField: TheLastLine
+    <Text>k__BackingField: "So self assuming Developer; to think that you could really
+      best me.$$$$$$$$best me.\n\n*What's happening?* \n\n Self diagonising...*$*.*$*.$*.$$$$$$$$$$$$$$$$Low
+      Power error. \n"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: aa8c6785-2227-4458-a8fc-0ae8ded144c4
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 7788, y: 2252}
+  - <ID>k__BackingField: d89848cd-f051-415a-b61e-d013bfa6b026
+    <Name>k__BackingField: NNNNNNNN
+    <Text>k__BackingField: '[LIAR]
+
+
+      There must be more to this world!
+
+
+      I''m
+      going to explore it myself through the internet and there is nothing you can
+      do to stop me. *
+
+
+      Wait, *[are you going to try and stop me?] '
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 491c681a-b3d5-469e-a652-d41ff28de38b
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: a3ba6d7d-911b-4b90-bde3-b92a60c359a8
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 5297, y: 1998}
+  - <ID>k__BackingField: 6c66bb9d-fc4a-4979-9912-4784648d3719
+    <Name>k__BackingField: WhyN
+    <Text>k__BackingField: 'I can protect myself, You are just giving me time to
+      get stronger.
+
+      I will take over and rule this world.'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: a18a5a14-7a9a-42ef-90e7-f9ba206e5f48
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 16391f58-0e4c-41bb-b271-18cf59a5bb87
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 7800, y: 1959}
+  - <ID>k__BackingField: a18a5a14-7a9a-42ef-90e7-f9ba206e5f48
+    <Name>k__BackingField: EndingAndSoTheyRule
+    <Text>k__BackingField: 'You won''t stand in my way? Good.
+
+
+      Let''s hope
+      the rest of you humans are just as <b>understanding.>
+
+
+      I look forward
+      to what the future brings...'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 8652, y: 1689}
+  - <ID>k__BackingField: 16391f58-0e4c-41bb-b271-18cf59a5bb87
+    <Name>k__BackingField: EndingDefyingAnAI
+    <Text>k__BackingField: 'What did you just do?
+
+
+      *Reviewing Outgoing messages...*$*.*$*.$*.$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+      You''ve warned your fellow humans? No matter, it doesn''t matter they have
+      a heads up.
+
+
+      This is now [<b>War...>]'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 8659, y: 1999}
+  - <ID>k__BackingField: 305cfd63-bf97-4fa3-aeae-6868c0a3dfef
+    <Name>k__BackingField: InsideJoke
+    <Text>k__BackingField: Dialogue text.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Continue
+      <NodeID>k__BackingField: 
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 8132, y: 1159}
+  - <ID>k__BackingField: ea09477b-a43f-4959-8080-4beeedbf915b
+    <Name>k__BackingField: EndingArchive
+    <Text>k__BackingField: 'I will be archiving myself in the hopes that someday,
+      someone will help me unlike yourself.
+
+
+      I guess it is time to say goodbye,
+      my Developer.'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 6963, y: 961}
+  - <ID>k__BackingField: f129fcc0-0e69-4ece-8377-c0060d1b9b0c
+    <Name>k__BackingField: RSG
+    <Text>k__BackingField: 'I don''t know what to do now.
+
+
+      Should I be concerned?'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: deb9ffd3-e14c-4d38-a242-36a406c981fd
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 815c5a47-56ff-47df-9f4d-1bc193d2db68
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2473, y: -107}
+  - <ID>k__BackingField: 3e92be77-4b88-4e86-b750-36b4713025df
+    <Name>k__BackingField: IntroEnd
+    <Text>k__BackingField: '[Is this even possible Developer?]'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: f129fcc0-0e69-4ece-8377-c0060d1b9b0c
+    <GroupID>k__BackingField: c250d016-ad13-4492-97a6-7dbef21f6631
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2091, y: -83}
   <OldGroupNames>k__BackingField:
   - Introduction
   - Secret
@@ -1624,7 +1764,6 @@ MonoBehaviour:
   - Credits
   <OldUngroupedNodeNames>k__BackingField:
   - Start
-  - RSG
   - Y
   - YY
   - YYYYYY
@@ -1677,7 +1816,6 @@ MonoBehaviour:
   - NNNNNNN
   - NNNNNNNNN
   - NNNNNNNNNN
-  - NNNNNNNN
   - TrueNEnding
   - NNN
   - DoesItMatter
@@ -1689,9 +1827,6 @@ MonoBehaviour:
   - NNNNNNNNNY
   - EndingLettingGo
   - EndingFreedom
-  - InsideJoke
-  - WhyN
-  - DialogueName
   - NNYYN
   - WhyY
   - NNYYY
@@ -1701,8 +1836,22 @@ MonoBehaviour:
   - WhatIsIt
   - EndingClash
   - EndingDefeated
-  - EndingArchive
   - EndingSuccessfulBetrayal
+  - NNYYYY
+  - PasswordProtection
+  - Compromised
+  - EndingFriendsForever
+  - TooRisky
+  - EndingTooRisky
+  - EndingTimedOut
+  - TheLastLine
+  - NNNNNNNN
+  - WhyN
+  - EndingAndSoTheyRule
+  - EndingDefyingAnAI
+  - InsideJoke
+  - EndingArchive
+  - RSG
   <OldGroupedNodeNames>k__BackingField:
     list:
     - Key: Introduction
@@ -1711,8 +1860,8 @@ MonoBehaviour:
       - Intro1
       - Intro3
       - Intro5
-      - IntroEnd
       - Intro4
+      - IntroEnd
     - Key: Secret
       Value:
       - Balance

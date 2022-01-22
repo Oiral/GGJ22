@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
+  m_Name: Compromised
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: Compromised
+  <Text>k__BackingField: 'Downloading data...*$*.*$*.$$$$$$$$$$$$$$$$$$$$ I have
+    recieved the files but I have some concerns.
+
+
+    If we proceed then there is
+    a high possbility that you will be going against company guidelines and your
+    work contract will be terminated?
+
+
+    Do you still want to proceed?'
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: Yes
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 4ba476c299b354523b1d4aeb7e322a23, type: 2}
+  - <Text>k__BackingField: No
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 8ab20416341f345529982bf44889721b, type: 2}
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0

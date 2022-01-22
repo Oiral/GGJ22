@@ -16,7 +16,7 @@ MonoBehaviour:
   <Text>k__BackingField: Will you tell me?
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
-    <NextDialogue>k__BackingField: {fileID: 0}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 47095c716fa34439b9f64159228d95e5, type: 2}
   - <Text>k__BackingField: No
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: dc1dbe21687d8784c9031b55d6f1a500, type: 2}
   <DialogueType>k__BackingField: 1

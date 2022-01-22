@@ -10,12 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: IntroEnd
+  m_Name: NNYYYY
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: IntroEnd
-  <Text>k__BackingField: '[Is this even possible Developer?]'
+  <DialogueName>k__BackingField: NNYYYY
+  <Text>k__BackingField: 'Thank you.
+
+
+    Type out what I need to do and I will
+    get to work. '
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next Dialogue
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: beeaac071d2794540954c72f7052ab63, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 96be7759a68df4e32a57ae5be671ab61, type: 2}
   <DialogueType>k__BackingField: 0
   <IsStartingDialogue>k__BackingField: 0

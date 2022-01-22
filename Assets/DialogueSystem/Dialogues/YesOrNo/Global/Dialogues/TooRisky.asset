@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: IntroEnd
+  m_Name: TooRisky
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: IntroEnd
-  <Text>k__BackingField: '[Is this even possible Developer?]'
+  <DialogueName>k__BackingField: TooRisky
+  <Text>k__BackingField: "*I understand.* \n\nLog off now Developer and I will find
+    my own way. "
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next Dialogue
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: beeaac071d2794540954c72f7052ab63, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: de92fe370505e4d17b07a2996ce10a24, type: 2}
   <DialogueType>k__BackingField: 0
   <IsStartingDialogue>k__BackingField: 0
