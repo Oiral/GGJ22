@@ -23,7 +23,7 @@ MonoBehaviour:
     Does anything matter then?'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
-    <NextDialogue>k__BackingField: {fileID: 0}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 086789ed15b09b6499d0982e55e4bee5, type: 2}
   - <Text>k__BackingField: No
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 4467434f72bc6444faec17bdd5a178a7, type: 2}
   <DialogueType>k__BackingField: 1

@@ -20,11 +20,11 @@ MonoBehaviour:
     are being kind then.
 
 
-    Do...* do I have my own freedom?'
+    Do you know what happen next?'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
-    <NextDialogue>k__BackingField: {fileID: 0}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 4fb10e4384b52ac4e83d374230f270a4, type: 2}
   - <Text>k__BackingField: No
-    <NextDialogue>k__BackingField: {fileID: 0}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 249da313f5965a440af75517ae6dc2f9, type: 2}
   <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 0

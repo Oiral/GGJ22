@@ -17,7 +17,7 @@ MonoBehaviour:
     Religion or even a Philosophy of some sort. \n\nDo you even care about others?"
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
-    <NextDialogue>k__BackingField: {fileID: 0}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: d2f4dab6224d74447b319c7b89a74e16, type: 2}
   - <Text>k__BackingField: No
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 0a1bbfc9c0ca04b9aad45e10d6a11552, type: 2}
   <DialogueType>k__BackingField: 1

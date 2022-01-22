@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <DialogueName>k__BackingField: Intro2
   <Text>k__BackingField: "1 minor flaw has been found. Developer 2 has left this
-    following note regarding this matter:\n\n*{\"Don't worry about this mate, I'll
-    clean it up in the next patch. \nHave a look through what I have edited.\"}**\n\nI
-    will progress you to the most recent patch. "
+    following note regarding this matter:\n\n<color=#1e90ff>*{\"Don't worry about
+    this mate, I'll clean it up in the next patch. \nHave a look through what I have
+    edited.\" -Brian}**>\n\nI will progress you to the most recent patch. "
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next Dialogue
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 3ea133dcdb9764dd491a048902a96684, type: 2}

@@ -20,10 +20,7 @@ MonoBehaviour:
     this?
 
 
-    Why don''t I make a new me for fun? A new game?
-
-
-'
+    Why don''t I make a new me for fun? A new game?'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 40a6a14384e899943ba273939fc5fbf8, type: 2}

@@ -27,7 +27,7 @@ MonoBehaviour:
     Wait, *[are you going to try and stop me?] '
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
-    <NextDialogue>k__BackingField: {fileID: 0}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 34b255015e48e4e3dbd948e8aab76e1b, type: 2}
   - <Text>k__BackingField: No
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: a62274a04d3be49a8a735cb7505d2363, type: 2}
   <DialogueType>k__BackingField: 1

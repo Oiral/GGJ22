@@ -16,15 +16,11 @@ MonoBehaviour:
   <Text>k__BackingField: 'That''s diconcerting...
 
 
-    I''m glad you are my Developer
-    then.
-
-
     You are nice, *aren''t you? '
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
-    <NextDialogue>k__BackingField: {fileID: 0}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 0da4489172fbc904f94f557471ada6e2, type: 2}
   - <Text>k__BackingField: No
-    <NextDialogue>k__BackingField: {fileID: 0}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: eb05d1a05faa1904d9f2ddff104624ae, type: 2}
   <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 0

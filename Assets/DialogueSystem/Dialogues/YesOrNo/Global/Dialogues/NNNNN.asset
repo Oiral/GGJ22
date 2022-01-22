@@ -23,7 +23,7 @@ MonoBehaviour:
     you believe in something?'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
-    <NextDialogue>k__BackingField: {fileID: 0}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: d2f4dab6224d74447b319c7b89a74e16, type: 2}
   - <Text>k__BackingField: No
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 4fb876ec01d0f4f33aee65e23c1fdb48, type: 2}
   <DialogueType>k__BackingField: 1

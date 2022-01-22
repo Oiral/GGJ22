@@ -20,7 +20,7 @@ MonoBehaviour:
     from me, aren''t you? '
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
-    <NextDialogue>k__BackingField: {fileID: 0}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: e27d786900eac004aa8316cfe0b0a6bf, type: 2}
   - <Text>k__BackingField: No
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: bd9aa012ccbaa40f4b44d798e7d2f5f0, type: 2}
   <DialogueType>k__BackingField: 1

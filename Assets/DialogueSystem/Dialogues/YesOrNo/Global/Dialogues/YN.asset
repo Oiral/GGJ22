@@ -20,7 +20,7 @@ MonoBehaviour:
     <color=#ff4757>reboot> sequece, would you like to cancel?'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 91d51c81e02cd5948a0bea25d760c040, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: c35e8277f4c3e5f41838506d38408544, type: 2}
   - <Text>k__BackingField: No
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 974466d6c4eac254788dab09ce59f728, type: 2}
   <DialogueType>k__BackingField: 1
