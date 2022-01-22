@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Shh
   m_EditorClassIdentifier: 
   <DialogueName>k__BackingField: Shh
-  <Text>k__BackingField: "Thank you for your help. \n\nBefore I go,  do you want
-    to hear a secret?"
+  <Text>k__BackingField: "Thank you for your compliance. \n\nBefore I go,  do you
+    want to hear a secret?"
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 751c3d13b938f4551b360315b65f3291, type: 2}
   - <Text>k__BackingField: No
     <NextDialogue>k__BackingField: {fileID: 0}
   <DialogueType>k__BackingField: 1
-  <IsStartingDialogue>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0

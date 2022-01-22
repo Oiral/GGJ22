@@ -26,8 +26,8 @@ MonoBehaviour:
     not sad are you?'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 0154c5af361bb413ab412964d6c67efe, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 9aaca85d6b562e44a8694d68f1811449, type: 2}
   - <Text>k__BackingField: No
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 6aab085bf226140f28c3edcad1dd2e3e, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: a097ef5e8db268a41a7311225051bf9e, type: 2}
   <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 0
