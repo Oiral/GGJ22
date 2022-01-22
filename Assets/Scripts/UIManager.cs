@@ -50,6 +50,11 @@ public class UIManager : MonoBehaviour
     {
         currentStringToAddID++;
 
+        if (currentStringToAddID >= stringToAdd.Length)
+        {
+            return;
+        }
+
         string nextChar = stringToAdd[currentStringToAddID].ToString();
 
         switch (nextChar)
@@ -60,8 +65,15 @@ public class UIManager : MonoBehaviour
                 break;
             case "$":
                 //Delete
-                currentString = currentString.Remove(currentString.Length - 1);
-                audioManager.PlaySound(audioTracks.key);
+                if (currentString.Length > 1)
+                {
+                    currentString = currentString.Remove(currentString.Length - 1);
+                    audioManager.PlaySound(audioTracks.key);
+                }
+                else
+                {
+                    AddNextChar();
+                }
                 break;
 
 
