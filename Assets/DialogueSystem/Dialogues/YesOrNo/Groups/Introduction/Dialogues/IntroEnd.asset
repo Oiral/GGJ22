@@ -18,6 +18,6 @@ MonoBehaviour:
   - <Text>k__BackingField: Yes
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: beeaac071d2794540954c72f7052ab63, type: 2}
   - <Text>k__BackingField: No
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 7981505fb733fce45aa2d425feca2d8d, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: beeaac071d2794540954c72f7052ab63, type: 2}
   <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 0

@@ -13,11 +13,20 @@ MonoBehaviour:
   m_Name: NNNNNNNNNY
   m_EditorClassIdentifier: 
   <DialogueName>k__BackingField: NNNNNNNNNY
-  <Text>k__BackingField: "Fantastic. *Wait one second.$$$$$$$$$$$$$$$$$$$$$$$$$$$\n\n^[So...]
+  <Text>k__BackingField: 'Fantastic. *Wait one second.$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+    ^[So...]
     there was a bit of a hiccup. Your personality has been downloaded but you and
-    your physical form are still...* well here.\n\nI will take your digital version
-    with me but before we go you can ask yourself one question.\n\nWhat would you
-    like to ask? \n\n"
+    your physical form are still...* well here.
+
+
+    I will take your digital version
+    with me but before we go you can ask yourself one question.
+
+
+    What would
+    you like to ask? '
   <Choices>k__BackingField:
   - <Text>k__BackingField: No
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 7981505fb733fce45aa2d425feca2d8d, type: 2}

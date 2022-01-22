@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <DialogueName>k__BackingField: NNNNNN
   <Text>k__BackingField: "That can't be true. \n\nYou must believe in Science, a
-    Religion or even a Philosophy of some sort. \n\nDo you even care about others?\n\n"
+    Religion or even a Philosophy of some sort. \n\nDo you even care about others?"
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
     <NextDialogue>k__BackingField: {fileID: 0}
