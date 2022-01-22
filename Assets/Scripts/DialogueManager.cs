@@ -43,7 +43,7 @@ public class DialogueManager : MonoBehaviour
 
         currentDialogue = newDialogue;
         currentChoices = currentDialogue.Choices;
-        DebugCurrentDialogue();
+        //DebugCurrentDialogue();
         DisplayDialogue();
     }
 

@@ -12,6 +12,8 @@ public class UIManager : MonoBehaviour
     [TextArea]
     public string stringToAdd;
 
+    public AudioManager audioManager;
+
     int currentStringToAddID = -1;
 
     public float timer;
@@ -19,9 +21,11 @@ public class UIManager : MonoBehaviour
 
     bool noTimer;
     bool longerTimer;
+    public bool colouring;
+    string endingTag;
     private void Update()
     {
-        if (currentStringToAddID < stringToAdd.Length)
+        if (currentStringToAddID < stringToAdd.Length -1)
         {
             timer += Time.deltaTime;
 
@@ -37,47 +41,83 @@ public class UIManager : MonoBehaviour
     {
         currentStringToAddID++;
 
-        char nextChar = stringToAdd[currentStringToAddID];
+        string nextChar = stringToAdd[currentStringToAddID].ToString();
 
         switch (nextChar)
         {
-            case ' ':
-                currentString += nextChar;
+            case " ":
+                AddChar(nextChar);
                 AddNextChar();
                 break;
-            case '#':
+            case "$":
                 //Delete
                 currentString = currentString.Remove(currentString.Length - 1);
+                audioManager.PlaySound(audioTracks.key);
                 break;
 
 
-            case '*':
+            case "*":
+
                 //Pause
                 timer = -1;
                 break;
-            case '^':
+            case "^":
                 timer = -3;
                 break;
 
 
-            case '{':
+            case "{":
                 noTimer = true;
                 break;
-            case '}':
+            case "}":
                 noTimer = false;
                 break;
 
 
-            case '[':
+            case "[":
                 longerTimer = true;
                 break;
-            case ']':
+            case "]":
                 longerTimer = false;
                 break;
 
+            case "<":
+                noTimer = true;
+                colouring = false;
+                AddChar(nextChar);
+
+                switch (stringToAdd[currentStringToAddID + 1])
+                {
+                    case 'c':
+                        endingTag = "color";
+                        break;
+                    case 'b':
+                        endingTag = "b";
+                        break;
+                }
+
+                break;
+            case ">":
+                noTimer = false;
+                
+                if (!colouring)
+                {
+                    AddChar(nextChar);
+                    //Add in the </color> at the end
+                    AddChar("</" + endingTag + ">");
+                    colouring = true;
+                }
+                else
+                {
+                    colouring = false;
+                }
+
+                
+                break;
 
             default:
-                currentString += nextChar;
+                audioManager.PlaySound(audioTracks.key);
+                AddChar(nextChar);
                 break;
         }
         if (longerTimer) timer = -typeSpeed;
@@ -86,6 +126,20 @@ public class UIManager : MonoBehaviour
         UpdateVisual();
         
     }
+
+    void AddChar(string charToAdd)
+    {
+        if (colouring)
+        {
+            currentString = currentString.Insert(currentString.Length - (endingTag.Length + 3), charToAdd);
+        }
+        else
+        {
+            currentString += charToAdd;
+        }
+        
+    }
+
     void UpdateVisual()
     {
         basicText.text = currentString;

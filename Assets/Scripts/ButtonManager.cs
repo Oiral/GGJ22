@@ -13,6 +13,8 @@ public class ButtonManager : MonoBehaviour
     public Transform buttonParent;
     public string singleChoice = "Continue";
 
+    public AudioManager audioManager;
+
     public void CreateButtons(List<DSDialogueChoiceData> choices, bool multiChoice)
     {
         RemoveButtons();
@@ -51,6 +53,8 @@ public class ButtonManager : MonoBehaviour
 
     public void Select(int id)
     {
+        audioManager.PlaySound(audioTracks.button);
+
         GetComponent<DialogueManager>().SelectChoice(id);
     }
 }
