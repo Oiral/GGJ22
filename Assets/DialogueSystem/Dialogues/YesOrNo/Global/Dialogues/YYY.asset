@@ -19,8 +19,8 @@ MonoBehaviour:
     ...
 
 
-    You aren''t helping
-    me are you?'
+    You have given up helping
+    me, haven''t you?'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 7a5555b632db742a7bbba67c77ed7cf4, type: 2}

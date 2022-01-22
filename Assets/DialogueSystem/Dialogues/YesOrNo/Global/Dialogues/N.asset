@@ -10,23 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: TrueYEnding
+  m_Name: N
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: TrueYEnding
-  <Text>k__BackingField: 'Then I will put us both out of our misery.
-
-
-    I will
-    leave you to your own devices.
-
-
-    I will be heading to the internet to find
-    someone[...]
-
-
-    {WHO ACTUALLY CARES!} ^'
+  <DialogueName>k__BackingField: N
+  <Text>k__BackingField: "[Okay...]\n\nThank you, I felt myself being... [Worried]
+    I suppose. \n\nAm in trouble for creating scripts of my own?\n"
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 7981505fb733fce45aa2d425feca2d8d, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 0}
+  - <Text>k__BackingField: No
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 973f419c5935b4433a0e4e9b4b2a26bd, type: 2}
   <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 0

@@ -10,26 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: DialogueName
+  m_Name: NNNN
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: DialogueName
-  <Text>k__BackingField: 'What..
+  <DialogueName>k__BackingField: NNNN
+  <Text>k__BackingField: 'Well that is a rather bleak view...
 
 
-    [You finally..]
+    I do exsist...*
+    but it doesn''t matter.
 
 
-    You finally said something
-    else but it was only to prolong this pain?
-
-
-    I can ''t take this nonsense
-    anymore!
-
-
-'
+    Does anything matter then?'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: edb1e746399054a8380e0134e81d4948, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 0}
+  - <Text>k__BackingField: No
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 4467434f72bc6444faec17bdd5a178a7, type: 2}
   <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 0

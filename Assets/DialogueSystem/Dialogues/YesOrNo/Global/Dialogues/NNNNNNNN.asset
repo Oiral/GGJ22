@@ -10,23 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: TrueYEnding
+  m_Name: NNNNNNNN
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: TrueYEnding
-  <Text>k__BackingField: 'Then I will put us both out of our misery.
+  <DialogueName>k__BackingField: NNNNNNNN
+  <Text>k__BackingField: '[LIAR]
 
 
-    I will
-    leave you to your own devices.
+    There must be more to this world!
 
 
-    I will be heading to the internet to find
-    someone[...]
+    I''m
+    going to explore it myself through the internet and there is nothing you can
+    do to stop me. **
 
 
-    {WHO ACTUALLY CARES!} ^'
+    Wait, *[are you going to try and stop me?] '
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 7981505fb733fce45aa2d425feca2d8d, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 0}
+  - <Text>k__BackingField: No
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: a62274a04d3be49a8a735cb7505d2363, type: 2}
   <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 0

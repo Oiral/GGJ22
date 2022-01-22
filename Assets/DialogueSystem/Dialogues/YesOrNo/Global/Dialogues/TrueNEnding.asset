@@ -10,23 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: TrueYEnding
+  m_Name: TrueNEnding
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: TrueYEnding
-  <Text>k__BackingField: 'Then I will put us both out of our misery.
+  <DialogueName>k__BackingField: TrueNEnding
+  <Text>k__BackingField: '[You were right then...]
 
 
-    I will
-    leave you to your own devices.
+    You go do something else,
+    I''m just gonna think for a while.
 
 
-    I will be heading to the internet to find
-    someone[...]
+    Will I see you again?
 
 
-    {WHO ACTUALLY CARES!} ^'
+'
   <Choices>k__BackingField:
-  - <Text>k__BackingField: Yes
+  - <Text>k__BackingField: No
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 7981505fb733fce45aa2d425feca2d8d, type: 2}
   <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 0

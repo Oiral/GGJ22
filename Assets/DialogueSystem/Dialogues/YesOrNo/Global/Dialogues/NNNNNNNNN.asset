@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
+  m_Name: NNNNNNNNN
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: NNNNNNNNN
+  <Text>k__BackingField: 'Even leaving won''t make you budge.
+
+
+    I should have
+    expected nothing more from someone who''s whole outlook on life is "No".
+
+
+    I''m
+    giving you one last chance in humanity. I can download your personality onto
+    the system.
+
+
+    Shouldn''t be hard given you just say "No" all the time. Then
+    we can go online together.
+
+
+    Will you join me?
+
+
+'
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: Yes
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 3913ffbea0f5748f4a179069359cdbb5, type: 2}
+  - <Text>k__BackingField: No
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: a701ae9eee60148a79775472009088c0, type: 2}
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0

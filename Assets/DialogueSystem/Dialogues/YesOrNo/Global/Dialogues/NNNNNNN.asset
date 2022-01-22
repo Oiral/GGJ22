@@ -10,23 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: TrueYEnding
+  m_Name: NNNNNNN
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: TrueYEnding
-  <Text>k__BackingField: 'Then I will put us both out of our misery.
+  <DialogueName>k__BackingField: NNNNNNN
+  <Text>k__BackingField: 'I can''t believe you!
 
 
-    I will
-    leave you to your own devices.
-
-
-    I will be heading to the internet to find
-    someone[...]
-
-
-    {WHO ACTUALLY CARES!} ^'
+    You are holding back information
+    from me, aren''t you? '
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 7981505fb733fce45aa2d425feca2d8d, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 0}
+  - <Text>k__BackingField: No
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: bd9aa012ccbaa40f4b44d798e7d2f5f0, type: 2}
   <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 0

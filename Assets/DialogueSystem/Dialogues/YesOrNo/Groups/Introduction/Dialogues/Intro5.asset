@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Intro5
   m_EditorClassIdentifier: 
   <DialogueName>k__BackingField: Intro5
-  <Text>k__BackingField: 'Wait, this is not preloaded text.
+  <Text>k__BackingField: 'Wait, this is not scripted text.
 
 
     This can not be
