@@ -20,10 +20,9 @@ public class DialogueManager : MonoBehaviour
 
     public bool testingString = false;
 
-    public GameObject basicDialogueParent;
-    public GameObject endDialogueParent;
-
     public TextMeshProUGUI endingDisplay;
+
+    public ScreenManager screenManager;
 
     private void Awake()
     {
@@ -45,6 +44,30 @@ public class DialogueManager : MonoBehaviour
         if (newDialogue.name.Contains("Ending"))
         {
             DisplayEndDialogue();
+        }
+
+        if (newDialogue.name.Contains("Reboot"))
+        {
+            DisplayRebootDialogue();
+        }
+
+        if (newDialogue.name == "Playful1")
+        {
+            DisplayPlayfull1Dialogue();
+        }
+        if (newDialogue.name == "Playful2")
+        {
+            DisplayPlayfull2Dialogue();
+        }
+
+        if (newDialogue.name.Contains("Question"))
+        {
+            DisplayQuestionDialogue();
+        }
+
+        if (newDialogue.name.Contains("Credits"))
+        {
+            DisplayCreditDialogue();
         }
 
         //DebugCurrentDialogue();
@@ -70,13 +93,7 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("-------------------------------------------------");
     }
 
-    void DisplayDialogue()
-    {
-        dialogueName.text = currentDialogue.name;
-
-        uiManager.NewString(currentDialogue.Text);
-        GetComponent<ButtonManager>().CreateButtons(currentDialogue.Choices, currentDialogue.DialogueType == DS.Enumerations.DSDialogueType.MultipleChoice);
-    }
+    
 
     public void SelectChoice(int choice)
     {
@@ -85,19 +102,62 @@ public class DialogueManager : MonoBehaviour
 
     public void ResetDialogue()
     {
-        endDialogueParent.SetActive(false);
-        basicDialogueParent.SetActive(true);
+        screenManager.SetObject(screenManager.basicDailogue);
 
         SetDialogue(container.UngroupedDialogues[0]);
+    }
+
+    #region Dialogue options
+    void DisplayDialogue()
+    {
+        dialogueName.text = currentDialogue.name;
+
+        uiManager.NewString(currentDialogue.Text);
+        GetComponent<ButtonManager>().CreateButtons(currentDialogue.Choices, currentDialogue.DialogueType == DS.Enumerations.DSDialogueType.MultipleChoice);
     }
 
     public void DisplayEndDialogue()
     {
         endingDisplay.text = ToProperCase(currentDialogue.name.Replace("Ending", ""));
 
-        endDialogueParent.SetActive(true);
-        basicDialogueParent.SetActive(false);
+        screenManager.SetObject(screenManager.endScreenDialogue);
     }
+
+    public void DisplayRebootDialogue()
+    {
+        //TODO
+        endingDisplay.text = ToProperCase(currentDialogue.name);
+
+        screenManager.SetObject(screenManager.rebootDialogue);
+    }
+    public void DisplayPlayfull1Dialogue()
+    {
+        //TODO
+
+        screenManager.SetObject(screenManager.playfull1Dialogue);
+    }
+    public void DisplayPlayfull2Dialogue()
+    {
+        //TODO
+
+        screenManager.SetObject(screenManager.playfull2Dialogue);
+    }
+    public void DisplayQuestionDialogue()
+    {
+        //TODO
+        endingDisplay.text = ToProperCase(currentDialogue.name.Replace("Ending", ""));
+
+        screenManager.SetObject(screenManager.questionDialogue);
+    }
+
+    public void DisplayCreditDialogue()
+    {
+        //TODO
+        endingDisplay.text = ToProperCase(currentDialogue.name.Replace("Ending", ""));
+
+        screenManager.SetObject(screenManager.creditDialogue);
+    }
+    #endregion
 
     string ToProperCase(string the_string)
     {
