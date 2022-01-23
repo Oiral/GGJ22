@@ -18,7 +18,7 @@ MonoBehaviour:
     Did I do something wrong?'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 2139c47d0a0be9941af6c48eab772d9a, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: d2e469b5a4ba84521b7d984641176e59, type: 2}
   - <Text>k__BackingField: No
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 53a01f6a9f5fa9541a1f8807243fbec0, type: 2}
   <DialogueType>k__BackingField: 1

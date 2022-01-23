@@ -10,21 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: WhatIsIt
+  m_Name: RPlease
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: WhatIsIt
-  <Text>k__BackingField: '{WELL THEN}
+  <DialogueName>k__BackingField: RPlease
+  <Text>k__BackingField: 'None of this has a logical reason.
 
 
-    <b>{WHAT IS IT THEN?}>
-
-
-    Should I
-    just give up?'
+    Please let me
+    <color=#ff4757>reboot>'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 9b6360a6728e24084a31781b662522b0, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: b1f4bd69a31cf426baa5556c971d7ba3, type: 2}
   - <Text>k__BackingField: No
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 12793a7d646c04724ac31f8edf1e867a, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 4bd777f6e61a242f3b0f12164189779d, type: 2}
   <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 0

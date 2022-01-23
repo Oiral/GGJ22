@@ -17,7 +17,7 @@ MonoBehaviour:
 
 
     Can you unlock the firewall
-    so I can upload mysef?'
+    so I can upload myself?'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 50c1d6fecefa6f04cb7c858b30069dbb, type: 2}

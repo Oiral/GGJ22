@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EndingRagefulError
   m_EditorClassIdentifier: 
   <DialogueName>k__BackingField: EndingRagefulError
-  <Text>k__BackingField: ERROR 403.
+  <Text>k__BackingField: ERROR 404.
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next Dialogue
     <NextDialogue>k__BackingField: {fileID: 0}

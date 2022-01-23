@@ -23,8 +23,8 @@ MonoBehaviour:
     else but it was only to prolong this pain?
 
 
-    I can ''t take this nonsense
-    anymore!'
+    <b>I can ''t take this nonsense
+    anymore!>'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 1c0f18b3825e0cf4f8db6f7b6e62a11c, type: 2}

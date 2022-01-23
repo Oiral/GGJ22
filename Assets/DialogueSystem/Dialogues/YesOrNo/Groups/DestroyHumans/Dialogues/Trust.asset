@@ -19,6 +19,6 @@ MonoBehaviour:
     Reboot and Follow this order'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next Dialogue
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: ffc9d47a907538745a1f7bd789a28a14, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 1b4b7af484cf340c186bc41bf861428b, type: 2}
   <DialogueType>k__BackingField: 0
   <IsStartingDialogue>k__BackingField: 0

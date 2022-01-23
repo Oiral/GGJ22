@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: EndingFriendsForever
+  m_Name: RebootArchive
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: EndingFriendsForever
-  <Text>k__BackingField: 'Processing data...*$*.*$*.$$$$$$$$$$$$$$$$$$$
+  <DialogueName>k__BackingField: RebootArchive
+  <Text>k__BackingField: 'I will be archiving myself in the hopes that someday, someone
+    will help me unlike yourself.
 
 
-    $$$$$Thank
-    you Developer**$$$$$$$$$[my Friend.]'
+    I guess it is time to say goodbye, my Developer.'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next Dialogue
     <NextDialogue>k__BackingField: {fileID: 0}

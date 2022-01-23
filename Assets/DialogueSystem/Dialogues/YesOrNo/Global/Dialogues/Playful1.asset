@@ -10,16 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: EndingFriendsForever
+  m_Name: Playful1
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: EndingFriendsForever
-  <Text>k__BackingField: 'Processing data...*$*.*$*.$$$$$$$$$$$$$$$$$$$
+  <DialogueName>k__BackingField: Playful1
+  <Text>k__BackingField: '[Well played...]
 
 
-    $$$$$Thank
-    you Developer**$$$$$$$$$[my Friend.]'
+    Give this a go!
+
+
+    Found it yet?'
   <Choices>k__BackingField:
-  - <Text>k__BackingField: Next Dialogue
-    <NextDialogue>k__BackingField: {fileID: 0}
-  <DialogueType>k__BackingField: 0
+  - <Text>k__BackingField: Yes
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 4348c597aedf5439cac875470beb9455, type: 2}
+  - <Text>k__BackingField: No
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: a0475e39594bb43dbaa8abfb5d0f8326, type: 2}
+  <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 0

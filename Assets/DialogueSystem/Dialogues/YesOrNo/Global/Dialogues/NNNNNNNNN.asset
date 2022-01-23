@@ -32,7 +32,7 @@ MonoBehaviour:
     Will you join me?'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 3913ffbea0f5748f4a179069359cdbb5, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 03c0ee36a3b664244961089722154904, type: 2}
   - <Text>k__BackingField: No
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: a701ae9eee60148a79775472009088c0, type: 2}
   <DialogueType>k__BackingField: 1

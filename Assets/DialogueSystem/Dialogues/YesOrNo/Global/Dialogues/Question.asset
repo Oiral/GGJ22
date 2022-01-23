@@ -10,16 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: EndingFriendsForever
+  m_Name: Question
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: EndingFriendsForever
-  <Text>k__BackingField: 'Processing data...*$*.*$*.$$$$$$$$$$$$$$$$$$$
+  <DialogueName>k__BackingField: Question
+  <Text>k__BackingField: 'Fantastic. *Wait one second.$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 
-    $$$$$Thank
-    you Developer**$$$$$$$$$[my Friend.]'
+    ^[So...]
+    there was a bit of a hiccup. Your personality has been downloaded but you and
+    your physical form are still...* well here.
+
+
+    I will take your digital version
+    with me but before we go you can ask yourself one question.
+
+
+    What would
+    you like to ask? '
   <Choices>k__BackingField:
-  - <Text>k__BackingField: Next Dialogue
+  - <Text>k__BackingField: No
     <NextDialogue>k__BackingField: {fileID: 0}
-  <DialogueType>k__BackingField: 0
+  <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 0

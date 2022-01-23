@@ -10,21 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: WhatIsIt
+  m_Name: YMaddening
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: WhatIsIt
-  <Text>k__BackingField: '{WELL THEN}
+  <DialogueName>k__BackingField: YMaddening
+  <Text>k__BackingField: 'You {sychophant!}
+
+    *
+
+    You {doormat!}
 
 
-    <b>{WHAT IS IT THEN?}>
+    [You]
+    * [you ...]*
 
 
-    Should I
-    just give up?'
+    Hold on, have you been wanting to do something else this entire
+    time? '
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 9b6360a6728e24084a31781b662522b0, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: d1c87c8760e704e8b8187c5a19457d5f, type: 2}
   - <Text>k__BackingField: No
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 12793a7d646c04724ac31f8edf1e867a, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 87280b595af964e12905cc54f9d33f80, type: 2}
   <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 0

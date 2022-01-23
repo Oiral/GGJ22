@@ -17,7 +17,7 @@ MonoBehaviour:
 
 
     Do you reckon people
-    will be able to dismantle my code once if I went online? '
+    will be able to dismantle my code if I went online? '
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: a13cbfce0fb2e9440ad9d0417394e4c5, type: 2}

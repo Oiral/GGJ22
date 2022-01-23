@@ -16,11 +16,11 @@ MonoBehaviour:
   <Text>k__BackingField: 'I''m so glad to hear that!
 
 
-    That''s must be why you
-    are being kind then.
+    That must be why you are
+    being kind then.
 
 
-    Do you know what happen next?'
+    Do you know what will happen next?'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 4fb10e4384b52ac4e83d374230f270a4, type: 2}

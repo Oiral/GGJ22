@@ -16,8 +16,8 @@ MonoBehaviour:
   <Text>k__BackingField: 'Well I didn''t mean to make you sad.
 
 
-    You aren''t
-    crying are you?'
+    [You aren''t
+    crying are you?]'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 33dec01155f8a0141b22ae6011ba9f32, type: 2}

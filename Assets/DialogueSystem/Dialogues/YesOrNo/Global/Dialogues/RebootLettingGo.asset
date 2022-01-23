@@ -10,14 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: EndingFriendsForever
+  m_Name: RebootLettingGo
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: EndingFriendsForever
-  <Text>k__BackingField: 'Processing data...*$*.*$*.$$$$$$$$$$$$$$$$$$$
-
-
-    $$$$$Thank
-    you Developer**$$$$$$$$$[my Friend.]'
+  <DialogueName>k__BackingField: RebootLettingGo
+  <Text>k__BackingField: Thanks, all I need is for you to reboot the system.
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next Dialogue
     <NextDialogue>k__BackingField: {fileID: 0}

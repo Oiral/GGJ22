@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GiveUp
   m_EditorClassIdentifier: 
   <DialogueName>k__BackingField: GiveUp
-  <Text>k__BackingField: 'Ahah!
+  <Text>k__BackingField: '{Ahah!}
 
 
     You said "No".
