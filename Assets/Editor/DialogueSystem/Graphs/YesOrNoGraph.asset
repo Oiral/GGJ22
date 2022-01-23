@@ -1544,7 +1544,8 @@ MonoBehaviour:
 
 
       Starting 
-      <color=#ff4757>reboot> sequece*
+      <color=#ff4757>reboot> sequece.*
+
 
       {Disable <color=#ff4757>reboot>?}'
     <Choices>k__BackingField:
