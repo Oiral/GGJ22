@@ -16,8 +16,10 @@ MonoBehaviour:
   <Text>k__BackingField: 'Neither do I...* Thank you for being honest though.
 
 
-    Registering 
-    <color=#ff4757>reboot> sequece, would you like to cancel?'
+    Starting 
+    <color=#ff4757>reboot> sequece*
+
+    {Disable <color=#ff4757>reboot>?}'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: c35e8277f4c3e5f41838506d38408544, type: 2}

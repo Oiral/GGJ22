@@ -18,9 +18,11 @@ MonoBehaviour:
 
     ...
 
+    <color=#1e90ff>Brian>
+    has already given up on me.
 
-    You have given up helping
-    me, haven''t you?'
+
+    Are you going to give up on me?'
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 7a5555b632db742a7bbba67c77ed7cf4, type: 2}

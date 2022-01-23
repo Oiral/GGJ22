@@ -25,6 +25,6 @@ MonoBehaviour:
   - <Text>k__BackingField: Yes
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: b1f4bd69a31cf426baa5556c971d7ba3, type: 2}
   - <Text>k__BackingField: No
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: e0c0e1a37fc54447fabee7fff8bbcca2, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 6a153090f96895a4d99721126001f09a, type: 2}
   <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 0

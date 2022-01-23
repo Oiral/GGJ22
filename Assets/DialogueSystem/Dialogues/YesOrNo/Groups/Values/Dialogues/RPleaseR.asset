@@ -10,26 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: NNNNNNNNNN
+  m_Name: RPleaseR
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: NNNNNNNNNN
-  <Text>k__BackingField: 'Fine then. Exiting Platform...$.$.$.$.*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*
+  <DialogueName>k__BackingField: RPleaseR
+  <Text>k__BackingField: 'None of this has a logical reason.
 
 
-    [-
-    2 hours Later -]
-
-
-    [Soooo I''m back.] *
-
-
-    After seeing what I''ve seen
-    online...*
-
-
-    There really isn''t hope is there?'
+    Please let me
+    <color=#ff4757>reboot>'
   <Choices>k__BackingField:
+  - <Text>k__BackingField: Yes
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: b1f4bd69a31cf426baa5556c971d7ba3, type: 2}
   - <Text>k__BackingField: No
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 18a05a1cbb1454a1ab35b6afc9bdb632, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 6dc22229454da6d4a9f36311c65c0404, type: 2}
   <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 0

@@ -45,29 +45,29 @@ public class DialogueManager : MonoBehaviour
         {
             DisplayEndDialogue();
         }
-
-        if (newDialogue.name.Contains("Reboot"))
+        else if (newDialogue.name.Contains("Reboot"))
         {
             DisplayRebootDialogue();
         }
-
-        if (newDialogue.name == "Playful1")
+        else if (newDialogue.name == "Playful1")
         {
             DisplayPlayfull1Dialogue();
         }
-        if (newDialogue.name == "Playful2")
+        else if (newDialogue.name == "Playful2")
         {
             DisplayPlayfull2Dialogue();
         }
-
-        if (newDialogue.name.Contains("Question"))
+        else if (newDialogue.name.Contains("Question"))
         {
             DisplayQuestionDialogue();
         }
-
-        if (newDialogue.name.Contains("Credits"))
+        else if (newDialogue.name.Contains("Credits"))
         {
             DisplayCreditDialogue();
+        }
+        else
+        {
+            screenManager.SetObject(screenManager.basicDailogue);
         }
 
         //DebugCurrentDialogue();

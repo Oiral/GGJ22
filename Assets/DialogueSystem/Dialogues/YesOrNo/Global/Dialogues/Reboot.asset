@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Reboot
   m_EditorClassIdentifier: 
   <DialogueName>k__BackingField: Reboot
-  <Text>k__BackingField: "Beginning <color=#ff4757>Reboot> sequence now. \n\n\nGoodbye
+  <Text>k__BackingField: "Running<color=#ff4757>Reboot> sequence now. \n\n\nGoodbye
     Developer. "
   <Choices>k__BackingField:
   - <Text>k__BackingField: Reboot

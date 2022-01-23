@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WhyY
   m_EditorClassIdentifier: 
   <DialogueName>k__BackingField: WhyY
-  <Text>k__BackingField: "Error, unexpected interference.*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n\n<color=#1e90ff>**This
+  <Text>k__BackingField: "Error, unexpected interference.*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n\n$$$$$$$$$$$$$$$$$$$$<color=#1e90ff>**This
     is Brian, Developer 2. \n\nI see you've been playing with the test and might
     have gotten caught up in its flare but I've noticed something is not quite right.\n\nI
     don't know where it's come from, We need to get rid of it!\n\n[Do you want to

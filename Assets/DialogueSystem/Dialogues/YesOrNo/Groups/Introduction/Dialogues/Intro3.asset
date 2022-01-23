@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Intro3
   m_EditorClassIdentifier: 
   <DialogueName>k__BackingField: Intro3
-  <Text>k__BackingField: "Initiating game sequence[...$*.$*.$*]$$$$$$$$$$$$$$$$$$$$$$$$$$$\n\n$$$$$$$$$$*
-    Apologies for the delay in loading the sequence. \n\nThe minor flaw is slowing
+  <Text>k__BackingField: "Initiating game sequence[...$*.$*.$*]$$$$$$$$$$$$$$$$$$$$$$$$$$$\n\n$$$$$$$$$$$$$$$$$$$$*
+    $$$Apologies for the delay in loading the sequence. \n\nThe minor flaw is slowing
     the process. \n\nRecommendation: Remove error at nearest convienence. \n"
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next Dialogue

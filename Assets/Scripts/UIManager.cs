@@ -22,10 +22,13 @@ public class UIManager : MonoBehaviour
 
     bool noTimer;
     bool longerTimer;
-    public bool colouring;
+    bool colouring;
     string endingTag;
 
+
+    public UnityEvent onStart;
     public UnityEvent onFinish;
+    
     private void Update()
     {
         if (currentStringToAddID < stringToAdd.Length -1)
@@ -65,7 +68,7 @@ public class UIManager : MonoBehaviour
                 break;
             case "$":
                 //Delete
-                if (currentString.Length > 1)
+                if (currentString.Length >= 1)
                 {
                     currentString = currentString.Remove(currentString.Length - 1);
                     audioManager.PlaySound(audioTracks.key);
@@ -173,5 +176,11 @@ public class UIManager : MonoBehaviour
         currentString = "";
         timer = 0;
         currentStringToAddID = -1;
+
+        noTimer = false;
+        longerTimer = false;
+        colouring = false;
+
+        onStart.Invoke();
     }
 }

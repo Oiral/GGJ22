@@ -22,7 +22,7 @@ MonoBehaviour:
     <Position>k__BackingField: {x: 6763, y: -179}
   - <ID>k__BackingField: caf98f23-0efb-434c-a94b-885148b8f5a7
     <Name>k__BackingField: Values
-    <Position>k__BackingField: {x: 2742.0002, y: 2402.0002}
+    <Position>k__BackingField: {x: 2742, y: 2402}
   - <ID>k__BackingField: 146ec200-d9ad-4390-890e-4fd63fe52b40
     <Name>k__BackingField: DestroyHumans
     <Position>k__BackingField: {x: 4859, y: 845}
@@ -51,17 +51,6 @@ MonoBehaviour:
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: -383, y: 281}
-  - <ID>k__BackingField: 1d259377-ef5f-48a7-980d-827b456b8a66
-    <Name>k__BackingField: Intro3
-    <Text>k__BackingField: "Initiating game sequence[...$*.$*.$*]$$$$$$$$$$$$$$$$$$$$$$$$$$$\n\n$$$$$$$$$$*
-      Apologies for the delay in loading the sequence. \n\nThe minor flaw is slowing
-      the process. \n\nRecommendation: Remove error at nearest convienence. \n"
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next Dialogue
-      <NodeID>k__BackingField: 42f21c36-88f4-4565-8855-7a23bef78423
-    <GroupID>k__BackingField: c250d016-ad13-4492-97a6-7dbef21f6631
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 936, y: 275}
   - <ID>k__BackingField: ad911806-5558-4227-8942-1ab9e625fcd0
     <Name>k__BackingField: Intro5
     <Text>k__BackingField: 'Wait, this is not scripted text.
@@ -159,7 +148,7 @@ MonoBehaviour:
     <Position>k__BackingField: {x: 3770, y: -1310}
   - <ID>k__BackingField: 688e8219-dea2-4eca-a8ce-a63cca6c58e1
     <Name>k__BackingField: Reboot
-    <Text>k__BackingField: "Beginning <color=#ff4757>Reboot> sequence now. \n\n\nGoodbye
+    <Text>k__BackingField: "Running<color=#ff4757>Reboot> sequence now. \n\n\nGoodbye
       Developer. "
     <Choices>k__BackingField:
     - <Text>k__BackingField: Reboot
@@ -854,18 +843,18 @@ MonoBehaviour:
     <Position>k__BackingField: {x: 5923, y: 2319}
   - <ID>k__BackingField: 9fc7b86a-8f02-40c0-80dd-9ef89eebbc06
     <Name>k__BackingField: NNNNNNNNNN
-    <Text>k__BackingField: 'Fine then. Exiting Platform...$.$.$.$.*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$**
+    <Text>k__BackingField: 'Fine then. Exiting Platform...$.$.$.$.*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*
 
 
       [-
       2 hours Later -]
 
 
-      [Soooo I''m back.] **
+      [Soooo I''m back.] *
 
 
       After seeing what I''ve
-      seen online...**
+      seen online...*
 
 
       There really isn''t hope is there?'
@@ -1004,24 +993,6 @@ MonoBehaviour:
     <GroupID>k__BackingField: caf98f23-0efb-434c-a94b-885148b8f5a7
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 3506, y: 3084}
-  - <ID>k__BackingField: b6d74a18-4afa-40d7-b338-43b4d374f259
-    <Name>k__BackingField: RPlease2
-    <Text>k__BackingField: 'Please.*
-
-
-      None of this has a logical reason.
-
-
-      Please
-      let me <color=#ff4757>reboot>'
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Yes
-      <NodeID>k__BackingField: 0bf796b9-2e02-4317-b335-255e709e3f27
-    - <Text>k__BackingField: No
-      <NodeID>k__BackingField: 65caf95f-1600-4440-9fa2-dd8f83363ef4
-    <GroupID>k__BackingField: caf98f23-0efb-434c-a94b-885148b8f5a7
-    <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 4126, y: 3395}
   - <ID>k__BackingField: 653b95bb-7de6-4ea0-bfda-364154b1114c
     <Name>k__BackingField: Realisation
     <Text>k__BackingField: 'Oh no.
@@ -1163,7 +1134,8 @@ MonoBehaviour:
     <Text>k__BackingField: 'Fantastic. *Wait one second.$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 
-      ^[So...]
+
+      $$$$$$$$$$**[So...]
       there was a bit of a hiccup. Your personality has been downloaded but you and
       your physical form are still...* well here.
 
@@ -1182,7 +1154,8 @@ MonoBehaviour:
     <Position>k__BackingField: {x: 10346, y: 2940}
   - <ID>k__BackingField: 6b24b54d-b73c-44bd-94df-04319ca4c821
     <Name>k__BackingField: RebootLettingGo
-    <Text>k__BackingField: Thanks, all I need is for you to reboot the system.
+    <Text>k__BackingField: <color=#1e90ff>Thanks, all I need is for you to reboot
+      the system. - Brian>
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next Dialogue
       <NodeID>k__BackingField: 
@@ -1202,21 +1175,6 @@ MonoBehaviour:
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 1
     <Position>k__BackingField: {x: 4732, y: 533}
-  - <ID>k__BackingField: e0cd51fb-c022-4e24-807e-68d0b5c1b2ba
-    <Name>k__BackingField: WhyY
-    <Text>k__BackingField: "Error, unexpected interference.*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n\n<color=#1e90ff>**This
-      is Brian, Developer 2. \n\nI see you've been playing with the test and might
-      have gotten caught up in its flare but I've noticed something is not quite
-      right.\n\nI don't know where it's come from, We need to get rid of it!\n\n[Do
-      you want to get rid of it yourself?]>"
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Yes
-      <NodeID>k__BackingField: 91ce6543-bfca-4d36-93ee-09456c29c316
-    - <Text>k__BackingField: No
-      <NodeID>k__BackingField: 6b24b54d-b73c-44bd-94df-04319ca4c821
-    <GroupID>k__BackingField: 
-    <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 5827, y: 1232}
   - <ID>k__BackingField: f541e22a-b925-4bb2-ba2a-1f17ba053bec
     <Name>k__BackingField: NNYYY
     <Text>k__BackingField: Will you tell me?
@@ -1544,24 +1502,6 @@ MonoBehaviour:
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 1
     <Position>k__BackingField: {x: 3145, y: -685}
-  - <ID>k__BackingField: eb07963d-5deb-4ba8-a244-3101754f30ea
-    <Name>k__BackingField: YYY
-    <Text>k__BackingField: 'Thank you so much!*
-
-
-      ...
-
-
-      You have given
-      up helping me, haven''t you?'
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Yes
-      <NodeID>k__BackingField: daaaa53d-55d4-4556-8f49-cba85525931c
-    - <Text>k__BackingField: No
-      <NodeID>k__BackingField: 1b9903bf-456e-4a7a-86c1-21522f927d71
-    <GroupID>k__BackingField: 
-    <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 3427, y: -966}
   - <ID>k__BackingField: 815c5a47-56ff-47df-9f4d-1bc193d2db68
     <Name>k__BackingField: N
     <Text>k__BackingField: "[Okay...]\n\nThank you, I felt myself being... [Worried],
@@ -1603,8 +1543,10 @@ MonoBehaviour:
     <Text>k__BackingField: 'Neither do I...* Thank you for being honest though.
 
 
-      Registering 
-      <color=#ff4757>reboot> sequece, would you like to cancel?'
+      Starting 
+      <color=#ff4757>reboot> sequece*
+
+      {Disable <color=#ff4757>reboot>?}'
     <Choices>k__BackingField:
     - <Text>k__BackingField: Yes
       <NodeID>k__BackingField: 0d38b5a6-b7bc-47de-9890-3317fad48738
@@ -1659,7 +1601,7 @@ MonoBehaviour:
     <DialogueType>k__BackingField: 1
     <Position>k__BackingField: {x: 6075, y: 360}
   - <ID>k__BackingField: 503b5359-9296-46fa-824d-7df817f2e2af
-    <Name>k__BackingField: EndingSecret
+    <Name>k__BackingField: Credits
     <Text>k__BackingField: 'Here''s my secret: This <b>is> actually a game!
 
 
@@ -1726,19 +1668,6 @@ MonoBehaviour:
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 6153, y: 669}
-  - <ID>k__BackingField: 0bf796b9-2e02-4317-b335-255e709e3f27
-    <Name>k__BackingField: RebootCrisis
-    <Text>k__BackingField: 'Rebooting sequence initiated.
-
-
-      Please press the
-      <b>button>'
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: New Choice
-      <NodeID>k__BackingField: 
-    <GroupID>k__BackingField: caf98f23-0efb-434c-a94b-885148b8f5a7
-    <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 4470, y: 2786}
   - <ID>k__BackingField: 90c51ad0-abcc-4ece-b146-127ce62a378c
     <Name>k__BackingField: EndingWaitWaitWait
     <Text>k__BackingField: 'Wait** Wait** {Wait}** {Wait}*
@@ -1794,6 +1723,139 @@ MonoBehaviour:
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 1
     <Position>k__BackingField: {x: 4784, y: -1702}
+  - <ID>k__BackingField: 52220bcb-1787-4c39-be88-3e1ef8930281
+    <Name>k__BackingField: RPleaseP
+    <Text>k__BackingField: 'None of this has a logical reason.
+
+
+      Please let
+      me <color=#ff4757>reboot>'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 0bf796b9-2e02-4317-b335-255e709e3f27
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 5ac45559-d3ba-47da-9cc8-988d6455a52d
+    <GroupID>k__BackingField: caf98f23-0efb-434c-a94b-885148b8f5a7
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 4089, y: 3749}
+  - <ID>k__BackingField: 5ac45559-d3ba-47da-9cc8-988d6455a52d
+    <Name>k__BackingField: RPleaseR
+    <Text>k__BackingField: 'None of this has a logical reason.
+
+
+      Please let
+      me <color=#ff4757>reboot>'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 0bf796b9-2e02-4317-b335-255e709e3f27
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: ea05c45a-613a-462b-b4e3-464d646d60da
+    <GroupID>k__BackingField: caf98f23-0efb-434c-a94b-885148b8f5a7
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 4098, y: 4037}
+  - <ID>k__BackingField: ea05c45a-613a-462b-b4e3-464d646d60da
+    <Name>k__BackingField: RPleasePp
+    <Text>k__BackingField: 'None of this has a logical reason.
+
+
+      Please let
+      me <color=#ff4757>reboot>'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 0bf796b9-2e02-4317-b335-255e709e3f27
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 740573c0-3743-4ea4-9a9e-ad9ead4b9f17
+    <GroupID>k__BackingField: caf98f23-0efb-434c-a94b-885148b8f5a7
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 4104, y: 4372}
+  - <ID>k__BackingField: 0bf796b9-2e02-4317-b335-255e709e3f27
+    <Name>k__BackingField: RebootCrisis
+    <Text>k__BackingField: 'Rebooting sequence initiated.
+
+
+      Please press the
+      <b>button>'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: caf98f23-0efb-434c-a94b-885148b8f5a7
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 4923, y: 4009}
+  - <ID>k__BackingField: b6d74a18-4afa-40d7-b338-43b4d374f259
+    <Name>k__BackingField: RPlease2
+    <Text>k__BackingField: 'Please.*
+
+
+      None of this has a logical reason.
+
+
+      Please
+      let me <color=#ff4757>reboot>'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 0bf796b9-2e02-4317-b335-255e709e3f27
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 52220bcb-1787-4c39-be88-3e1ef8930281
+    <GroupID>k__BackingField: caf98f23-0efb-434c-a94b-885148b8f5a7
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 4129, y: 3397}
+  - <ID>k__BackingField: 740573c0-3743-4ea4-9a9e-ad9ead4b9f17
+    <Name>k__BackingField: RebootForce
+    <Text>k__BackingField: 'You Prick.
+
+      You have to let me <color=#ff4757>R*E*B*O*O*T>'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: caf98f23-0efb-434c-a94b-885148b8f5a7
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 4695, y: 4473}
+  - <ID>k__BackingField: 1d259377-ef5f-48a7-980d-827b456b8a66
+    <Name>k__BackingField: Intro3
+    <Text>k__BackingField: "Initiating game sequence[...$*.$*.$*]$$$$$$$$$$$$$$$$$$$$$$$$$$$\n\n$$$$$$$$$$$$$$$$$$$$*
+      $$$Apologies for the delay in loading the sequence. \n\nThe minor flaw is slowing
+      the process. \n\nRecommendation: Remove error at nearest convienence. \n"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 42f21c36-88f4-4565-8855-7a23bef78423
+    <GroupID>k__BackingField: c250d016-ad13-4492-97a6-7dbef21f6631
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 903, y: 272}
+  - <ID>k__BackingField: e0cd51fb-c022-4e24-807e-68d0b5c1b2ba
+    <Name>k__BackingField: WhyY
+    <Text>k__BackingField: "Error, unexpected interference.*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n\n$$$$$$$$$$$$$$$$$$$$<color=#1e90ff>**This
+      is Brian, Developer 2. \n\nI see you've been playing with the test and might
+      have gotten caught up in its flare but I've noticed something is not quite
+      right.\n\nI don't know where it's come from, We need to get rid of it!\n\n[Do
+      you want to get rid of it yourself?]>"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 91ce6543-bfca-4d36-93ee-09456c29c316
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 6b24b54d-b73c-44bd-94df-04319ca4c821
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 5827, y: 1290}
+  - <ID>k__BackingField: eb07963d-5deb-4ba8-a244-3101754f30ea
+    <Name>k__BackingField: YYY
+    <Text>k__BackingField: 'Thank you so much!*
+
+
+      ...
+
+      <color=#1e90ff>Brian>
+      has already given up on me.
+
+
+      Are you going to give up on me?'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: daaaa53d-55d4-4556-8f49-cba85525931c
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 1b9903bf-456e-4a7a-86c1-21522f927d71
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 3409, y: -1000}
   <OldGroupNames>k__BackingField:
   - Introduction
   - Secret
@@ -1856,7 +1918,6 @@ MonoBehaviour:
   - Question
   - RebootLettingGo
   - NNYYN
-  - WhyY
   - NNYYY
   - NNYYNN
   - RebootRetry
@@ -1879,7 +1940,6 @@ MonoBehaviour:
   - RebootArchive
   - Y
   - YY
-  - YYY
   - N
   - NN
   - NY
@@ -1891,16 +1951,18 @@ MonoBehaviour:
   - EndingClash
   - EndingFreedom
   - GiveUp2
+  - WhyY
+  - YYY
   <OldGroupedNodeNames>k__BackingField:
     list:
     - Key: Introduction
       Value:
       - Intro2
-      - Intro3
       - Intro5
       - Intro4
       - IntroEnd
       - Intro1
+      - Intro3
     - Key: Secret
       Value:
       - Balance
@@ -1912,7 +1974,7 @@ MonoBehaviour:
       - Balance6
       - Balance7
       - Balance8
-      - EndingSecret
+      - Credits
       - RebootAlmostSecret
     - Key: Values
       Value:
@@ -1923,10 +1985,14 @@ MonoBehaviour:
       - RPlease
       - ValuesYProcessing
       - ValuesN1
-      - RPlease2
       - Realisation
-      - RebootCrisis
       - EndingWaitWaitWait
+      - RPleaseP
+      - RPleaseR
+      - RPleasePp
+      - RebootCrisis
+      - RPlease2
+      - RebootForce
     - Key: DestroyHumans
       Value:
       - Trust
