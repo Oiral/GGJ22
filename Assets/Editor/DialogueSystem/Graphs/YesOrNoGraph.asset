@@ -336,7 +336,7 @@ MonoBehaviour:
     <Position>k__BackingField: {x: 7392, y: -2332}
   - <ID>k__BackingField: f97dfb69-0bd8-40ed-8d31-a7b496ad6a9e
     <Name>k__BackingField: YYYNYYNY
-    <Text>k__BackingField: "Error, unexpected interference.*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n<color=#2ed573>$**This
+    <Text>k__BackingField: "Error, unexpected interference.*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n$<color=#2ed573>**This
       is Shane, Developer 2. \n\nI see you've been playing with my test  and might
       have gotten caught up in its flare but it's time to get rid of it.\n\nI don't
       have much time to describe why I made this thing. I just need to know.\n\n[Do
@@ -1118,17 +1118,6 @@ MonoBehaviour:
     <GroupID>k__BackingField: 146ec200-d9ad-4390-890e-4fd63fe52b40
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 5308, y: 1119}
-  - <ID>k__BackingField: 084d04c0-6078-461b-8e16-7d0f4d24a925
-    <Name>k__BackingField: WHY
-    <Text>k__BackingField: Why? Are you protecting me?
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Yes
-      <NodeID>k__BackingField: e0cd51fb-c022-4e24-807e-68d0b5c1b2ba
-    - <Text>k__BackingField: No
-      <NodeID>k__BackingField: 6c66bb9d-fc4a-4979-9912-4784648d3719
-    <GroupID>k__BackingField: 
-    <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 5457, y: 1748}
   - <ID>k__BackingField: d95544ce-fa01-47b2-bb51-1f3c377a8502
     <Name>k__BackingField: Question
     <Text>k__BackingField: 'Fantastic. *Wait one second.$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -1857,6 +1846,17 @@ MonoBehaviour:
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 1
     <Position>k__BackingField: {x: 3409, y: -1000}
+  - <ID>k__BackingField: 084d04c0-6078-461b-8e16-7d0f4d24a925
+    <Name>k__BackingField: WHY
+    <Text>k__BackingField: Why? Are you protecting me?
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: e0cd51fb-c022-4e24-807e-68d0b5c1b2ba
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 6c66bb9d-fc4a-4979-9912-4784648d3719
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 5457, y: 1748}
   <OldGroupNames>k__BackingField:
   - Introduction
   - Secret
@@ -1915,7 +1915,6 @@ MonoBehaviour:
   - WhatDoYouWant
   - GiveUpYN
   - Freedom
-  - WHY
   - Question
   - RebootLettingGo
   - NNYYN
@@ -1954,6 +1953,7 @@ MonoBehaviour:
   - GiveUp2
   - WhyY
   - YYY
+  - WHY
   <OldGroupedNodeNames>k__BackingField:
     list:
     - Key: Introduction
